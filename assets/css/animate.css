@@ -57,7 +57,7 @@
 
         <div class="full-wrapper">
 
-            <header id="page-top" class="header-section second-header">
+                <header id="page-top" class="header-section second-header">
                 <div class="overlay"></div>
                 <nav class="navbar navbar-inverse main-nav navbar-fixed-top">
                     <div class="container-fluid">
@@ -76,31 +76,19 @@
 
                         <div id="navbar" class="collapse navbar-collapse sidebar-offcanvas">
                             <ul class="nav navbar-nav navbar-right">
-                                <li class="active"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="true">Home <span><i class="fa fa-angle-down"></i></span></a>
-                                    <ul class="dropdown">
-                                        <li><a href="index.html">Home-1</a></li>
-                                        <li><a href="index2.html">Home-2</a></li>
-                                    </ul>
-                                </li>
-
+                                <li><a class="page-scroll" href="index2.html">Home</a></li>
                                 <li><a class="page-scroll" href="#couple">Couple</a></li>
                                 <li><a class="page-scroll" href="#story">Our story</a></li>
                                 <li><a class="page-scroll" href="#event">Event</a></li>
                                 <li><a class="page-scroll" href="#blog">Blog</a></li>
                                 <li><a class="page-scroll" href="#gallery">Gallery</a></li>
                                 <li><a class="page-scroll" href="#contact">RSVP</a></li>
-                                
-                                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="true">Pages <span><i class="fa fa-angle-down"></i></span></a>
-                                    <ul class="dropdown">
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="invitation.html">Invitation</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="invitation.html">Invitation</a></li>
                             </ul>
                         </div>   <!--/.nav-collapse -->
                     </div>
                 </nav>
-            </header> <!-- header-section -->
+            </header> 
 
 
             <section class="slider-second-section" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="250" data-stellar-horizontal-offset="50">
@@ -200,7 +188,7 @@
                 <div class="bg-section" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="-800" >        
                     <div class="container text-center">
                         <h2> ~ We're Getting Married ~ </h2>
-                        <span class="time">On <span class="link-color">April 23,2018</span></span>
+                        <span class="time">On <span class="link-color">March 29,2017</span></span>
                     </div>
                 </div>
             </section> <!-- timeing-section -->
