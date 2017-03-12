@@ -835,7 +835,7 @@ button,
 
 .slider-second-section {
   position: relative;
-  background: url(../images/india/header.jpg) no-repeat;
+  background: url(../images/background/header.jpg) no-repeat;
   background-position: center center;
   background-size: cover;
   overflow: hidden;
@@ -4093,7 +4093,7 @@ footer .copy-right {
 .timeing-section {
   position: relative; }
   .timeing-section .bg-section {
-    background: url(../images/india/date.jpg) no-repeat;
+    background: url(../images/background/date.jpg) no-repeat;
     padding: 188px 0 175px; }
     .timeing-section .bg-section::before {
       content: "";
@@ -4125,7 +4125,7 @@ footer .copy-right {
 ========================================= */
 .testimonial-section {
   position: relative;
-  background: url(../images/india/footer.jpg) no-repeat;
+  background: url(../images/background/footer.jpg) no-repeat;
   background-position: 50% 0%;
   background-attachment: fixed;
   padding: 145px 0 270px; }
