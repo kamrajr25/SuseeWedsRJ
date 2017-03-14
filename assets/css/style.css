@@ -834,7 +834,7 @@ button,
         bottom: 4px; }
 
 .slider-second-section {
-  position: relative;
+  position: ;
   background: url(../images/background/header.jpg) no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4155,6 +4155,14 @@ footer .copy-right {
     .testimonial-section #testimonial-carousel blockquote h3 {
       font-family: "Libre Baskerville" !important;
       font-size: 24px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      color: #FFFFFF;
+      margin-bottom: 30px; }
+
+      .testimonial-section #testimonial-carousel blockquote h5 {
+      font-family: "Libre Baskerville" !important;
+      font-size: 12px;
       font-weight: 400;
       letter-spacing: 1px;
       color: #FFFFFF;

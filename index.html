@@ -16,7 +16,8 @@
         <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
         <!-- FontAwesome-Version-4.7.0 -->
-        <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">  
 
         <!-- Owl-Carousel -->
         <link href="assets/owl.carousel/owl.carousel.css" rel="stylesheet" type="text/css">
@@ -241,8 +242,30 @@
                                                     <img src="assets/images/tab/v-1.png" alt="image">
                                                     <span class="heart"><img src="assets/images/tab/small-heart.png" alt="image"></span>
                                                     <h4><a href="#">Our first meet!</a></h4>
-                                                    <p>This was a awesome day of our meeting in our class</p>
+                                                    <p>This was a awesome day of our meeting in our Office.</p>
                                                 </li>
+
+                                                <li>
+                                                    <img src="assets/images/tab/v-2.png" alt="image">
+                                                    <span class="heart"><img src="assets/images/tab/small-heart.png" alt="image"></span>
+                                                    <h4><a href="#">I proposed Her</a></h4>
+                                                    <p>Even I can’t but stay a single day without see her, so I desided to propose her for love.</p>
+                                                </li>
+
+                                                <li>
+                                                    <img src="assets/images/tab/v-3.png" alt="image">
+                                                    <span class="heart"><img src="assets/images/tab/small-heart.png" alt="image"></span>
+                                                    <h4><a href="#">She said-"Yes!"</a></h4>
+                                                    <p>She also loved me and wanted to be closer.</p>
+                                                </li>
+
+                                                <li>
+                                                    <img src="assets/images/tab/v-4.png" alt="image">
+                                                    <span class="heart"><img src="assets/images/tab/small-heart.png" alt="image"></span>
+                                                    <h4><a href="#">We decieded to marry!</a></h4>
+                                                    <p>I loved her too much & she also loved me, so we wanted to marry!</p>
+                                                </li>
+
                                             </ul>
                                         </div> <!-- tab-doc -->
                                     </div> <!-- tab-one -->
@@ -348,6 +371,8 @@
                             <div class="event-wrapper">
                                 <div class="col-md-6 no-padding">
                                     <div class="map-section">
+                                    <div class="check text-center">Check the <strong>Map</strong></div>
+                                    <div class="overlap"></div>
                                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15796.610596150189!2d77.4351463!3d8.1873736!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x87f80fbe06c0ab0e!2sPerumal+Kalayana+Mandapam!5e0!3m2!1sen!2sin!4v1488734768210" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
                                     </div> <!-- map-section -->
 
@@ -381,7 +406,7 @@
                                     </div> <!-- event-slider -->
 
                                     <div class="contact text-center">
-										<h1><span class="number">Contact</span></h1>
+                                        <h1><span class="number">Contact</span></h1>
                                         <span class="number">+91-987 654 3210</span>
                                         <span class="mail">contactus@gmail.com</span>
                                     </div> <!-- contact -->
@@ -437,22 +462,22 @@
                             <li data-target="#testimonial-carousel" data-slide-to="2"></li>
                             <li data-target="#testimonial-carousel" data-slide-to="3"></li>
                             <li data-target="#testimonial-carousel" data-slide-to="4"></li>
-							<li data-target="#testimonial-carousel" data-slide-to="5"></li>
+                            <li data-target="#testimonial-carousel" data-slide-to="5"></li>
                         </ol> <!-- carousel-indicators -->
 
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
-							<div class="item">
+                            <div class="item active">
                                 <blockquote>
-                                    <h3>"They say that marriage is scripted somewhere in heaven.Well this hypothesis will always remain debtable, but something is for sure that on 30th March, heaven would definitely knock the door of one lucky person. The more I have known you, the more I have felt that you own the secret passage to eternal happiness. And one lucky person is going to be escorted through that passage on 30th march."</h3>
+                                    <h5>"They say that marriage is scripted somewhere in heaven.Well this hypothesis will always remain debtable, but something is for sure that on 30th March, heaven would definitely knock the door of one lucky person. The more I have known you, the more I have felt that you own the secret passage to eternal happiness. And one lucky person is going to be escorted through that passage on 30th march."</h5>
                                     <span class="author">
                                         <img src="assets/images/intro/member7_260x260.jpg" alt="image">
                                         <span class="title text-uppercase">-Sachin</span>
                                     </span>
                                 </blockquote>
                             </div>
-							
-                            <div class="item active">
+                            
+                            <div class="item">
                                 <blockquote>
                                     <h3>"Let all happiness in the world belong to you.Happy Married life."</h3>
                                     <span class="author">
@@ -491,8 +516,8 @@
                                     </span>
                                 </blockquote>
                             </div>
-							
-							<div class="item">
+                            
+                            <div class="item">
                                 <blockquote>
                                     <h3>"Wish Your happy & healty life after marriage."</h3>
                                     <span class="author">
@@ -576,7 +601,7 @@
             var map;
             function initMap() {
                 map = new google.maps.Map(document.getElementById('googleMap2'),
-				{
+                {
                   center: {lat:8.187395, lng: 77.435114},
                   zoom: 8
                 });
