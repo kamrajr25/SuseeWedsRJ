@@ -1,0 +1,16 @@
+language: "en"
+
+pipeline:
+- name: nlp_spacy
+  model: en_core_web_md
+- name: tokenizer_whitespace
+- name: spacy_tokenizer_lemma.SpacyTokenizer
+- name: ner_crf
+- name: ner_synonyms
+- name: intent_featurizer_count_vectors
+  OOV_token: oov
+  token_pattern: (?u)\b\w+\b
+- name: intent_classifier_tensorflow_embedding
+  random_seed : 1
+  epochs: 200
+

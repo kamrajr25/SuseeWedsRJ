@@ -1,0 +1,4847 @@
+﻿{
+  "rasa_nlu_data": {
+    "lookup_tables": [
+      {
+        "name": "WholesalerName",
+        "elements": "wholesalers.txt"
+      }
+    ],
+    "common_examples": [
+      {
+        "text": "How to create a report in bo",
+        "intent": "ReportBO",
+        "entities": [
+          {
+            "start": 26,
+            "end": 28,
+            "value": "bo",
+            "entity": "reportBO"
+          }
+        ]
+      },
+      {
+        "text": "How to Create Universe",
+        "intent": "CreateUniverse",
+        "entities": []
+      },
+      {
+        "text": "Where is the report folder and path where all the Managed Care reports are located?",
+        "intent": "ManageCareReportsLocation",
+        "entities": []
+      },
+      {
+        "text": "Can i access managed care documents",
+        "intent": "ManageCareReportsLocation",
+        "entities": []
+      },
+      {
+        "text": "Whom we can reach out for BO Related queries",
+        "intent": "BOQueries",
+        "entities": []
+      },
+      {
+        "text": "How to Extract report data in Excel, PDF and CSV",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "What are the reports related to Chargebacks Analysis and Paid Chargebacks",
+        "intent": "Chargebackreports",
+        "entities": []
+      },
+      {
+        "text": "Where are the Managed Care reports functional documents and technical documents",
+        "intent": "ManageCareReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "Where are the Greenstone reports functional documents and technical documents",
+        "intent": "GreenStoneReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "Can I update the market type for the active contract",
+        "intent": "MarketTypeContract",
+        "entities": []
+      },
+      {
+        "text": "Can I get ISA control number for EDI transaction",
+        "intent": "ISAControlNumber",
+        "entities": []
+      },
+      {
+        "text": "Can I update the contract entity",
+        "intent": "ContractEntityUpdate",
+        "entities": []
+      },
+      {
+        "text": "Can I get the list of contracts tied with given product set",
+        "intent": "ContractList",
+        "entities": []
+      },
+      {
+        "text": "Whom we can reach out for Contracts Related queries",
+        "intent": "ContractsRelatedQueries",
+        "entities": []
+      },
+      {
+        "text": "Where are the Contracts interface functional documents and technical documents",
+        "intent": "ContractInterfaceDocs",
+        "entities": []
+      },
+      {
+        "text": "How to do pricing import in contracts",
+        "intent": "ContractPricingImport",
+        "entities": []
+      },
+      {
+        "text": "Where is the EDI Notification template cheat sheet",
+        "intent": "EDINotificationTemplate",
+        "entities": []
+      },
+      {
+        "text": "Can we notify EDI 845 notification to Contract entity",
+        "intent": "EDI845Notification",
+        "entities": []
+      },
+      {
+        "text": "I need a report where prime vendor used in contract",
+        "intent": "PrimeVendor",
+        "entities": []
+      },
+      {
+        "text": "What is RM",
+        "intent": "RM",
+        "entities": []
+      },
+      {
+        "text": "Create report in bo",
+        "intent": "ReportBO",
+        "entities": [
+          {
+            "start": 17,
+            "end": 19,
+            "value": "bo",
+            "entity": "reportBO"
+          }
+        ]
+      },
+      {
+        "text": "Create Universe",
+        "intent": "CreateUniverse",
+        "entities": []
+      },
+      {
+        "text": "Where to find report folder and Managed Care reports",
+        "intent": "ManageCareReportsLocation",
+        "entities": []
+      },
+      {
+        "text": "Contact for BO questions",
+        "intent": "BOQueries",
+        "entities": []
+      },
+      {
+        "text": "How to convert report in pdf, excel or csv",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "Chargebacks Analysis and Paid Chargebacks reports",
+        "intent": "Chargebackreports",
+        "entities": []
+      },
+      {
+        "text": "How to update market type for an active contract",
+        "intent": "MarketTypeContract",
+        "entities": []
+      },
+      {
+        "text": "How to get ISA number for EDI transaction",
+        "intent": "ISAControlNumber",
+        "entities": []
+      },
+      {
+        "text": "How to update the contract entity",
+        "intent": "ContractEntityUpdate",
+        "entities": []
+      },
+      {
+        "text": "For a product set, what are the contracts",
+        "intent": "ContractList",
+        "entities": []
+      },
+      {
+        "text": "POC for Contracts query",
+        "intent": "ContractsRelatedQueries",
+        "entities": []
+      },
+      {
+        "text": "Import price for a contract",
+        "intent": "ContractPricingImport",
+        "entities": []
+      },
+      {
+        "text": "How to access EDI Notification template",
+        "intent": "EDINotificationTemplate",
+        "entities": []
+      },
+      {
+        "text": "Prime vendor contract report",
+        "intent": "PrimeVendor",
+        "entities": []
+      },
+      {
+        "text": "What does RM stand for",
+        "intent": "RM",
+        "entities": []
+      },
+      {
+        "text": "Where is the Parent Child Relationship for a customer defined in Flex",
+        "intent": "ParentChildRelationship",
+        "entities": []
+      },
+      {
+        "text": "For a customer in ModelN, how can I access parent child",
+        "intent": "ParentChildRelationship",
+        "entities": []
+      },
+      {
+        "text": "What are the four different screens in Government Pricing Module",
+        "intent": "GovtPricingModule",
+        "entities": []
+      },
+      {
+        "text": "Show me various screens  in Government Pricing Module",
+        "intent": "GovtPricingModule",
+        "entities": []
+      },
+      {
+        "text": "Which user can assign roles and define user access",
+        "intent": "RoleAssignment",
+        "entities": []
+      },
+      {
+        "text": "Who can assign roles and user access",
+        "intent": "RoleAssignment",
+        "entities": []
+      },
+      {
+        "text": "What is the type of Customer to which a Contract is defined for",
+        "intent": "CustomerContractorDefined",
+        "entities": []
+      },
+      {
+        "text": "Contract is defined for which customer",
+        "intent": "CustomerContractorDefined",
+        "entities": []
+      },
+      {
+        "text": "Which section in AMM can I view all the uploaded rosters",
+        "intent": "AMMRosters",
+        "entities": []
+      },
+      {
+        "text": "Where to find uploaded rosters in AMM ",
+        "intent": "AMMRosters",
+        "entities": []
+      },
+      {
+        "text": "Which job syncs up Masterdata components in Government Pricing application",
+        "intent": "MasterdataGovtPricing",
+        "entities": []
+      },
+      {
+        "text": "How to sync masterdata component in Government Pricing application",
+        "intent": "MasterdataGovtPricing",
+        "entities": []
+      },
+      {
+        "text": "Which table stores products pricing related information in Government Pricing",
+        "intent": "ProductsPricing",
+        "entities": []
+      },
+      {
+        "text": "Where to access products pricing related information in Government Pricing",
+        "intent": "ProductsPricing",
+        "entities": []
+      },
+      {
+        "text": "Which table stores various Price Types in government Pricing",
+        "intent": "PriceTypes",
+        "entities": []
+      },
+      {
+        "text": "How to access various Price Types in government Pricing",
+        "intent": "PriceTypes",
+        "entities": []
+      },
+      {
+        "text": "How can we import prices from MDM to Government Pricing system",
+        "intent": "MDMImportPrices",
+        "entities": []
+      },
+      {
+        "text": "import prices from MDM to Government Pricing ",
+        "intent": "MDMImportPrices",
+        "entities": []
+      },
+      {
+        "text": "Within a Contract where can I check the associated Product Set and the underlying product details",
+        "intent": "CheckProductDetails",
+        "entities": []
+      },
+      {
+        "text": "Where to check products and its details in a contract",
+        "intent": "CheckProductDetails",
+        "entities": []
+      },
+      {
+        "text": "Under which tab the pricing related information of a contract is stored",
+        "intent": "ContractPricingInfo",
+        "entities": []
+      },
+      {
+        "text": "How to access contract pricing info",
+        "intent": "ContractPricingInfo",
+        "entities": []
+      },
+      {
+        "text": "Which is the table that stores Contract related information",
+        "intent": "ContractDetailAccess",
+        "entities": []
+      },
+      {
+        "text": "How to access a contract detail",
+        "intent": "ContractDetailAccess",
+        "entities": []
+      },
+      {
+        "text": "How will you exempt a contract from calculating Low Price",
+        "intent": "LowPriceCalculationExemption",
+        "entities": []
+      },
+      {
+        "text": "From which screen in Government Pricing module do we kick off calculations",
+        "intent": "KickOffCalculationScreen",
+        "entities": []
+      },
+      {
+        "text": "Within a Contract where can I check the associated Customer Eligibility Set and the underlying Customer details",
+        "intent": "CustomerEligibilitySet",
+        "entities": []
+      },
+      {
+        "text": "Where can we configure Scrubs in the Government Pricing application",
+        "intent": "ScrubsConfiguration",
+        "entities": []
+      },
+      {
+        "text": "How to configure Scrubs in the Government Pricing application",
+        "intent": "ScrubsConfiguration",
+        "entities": []
+      },
+      {
+        "text": "What does ECP stand for",
+        "intent": "ECP",
+        "entities": []
+      },
+      {
+        "text": "ECP",
+        "intent": "ECP",
+        "entities": []
+      },
+      {
+        "text": "What is ECP",
+        "intent": "ECP",
+        "entities": []
+      },
+      {
+        "text": "How can we publish prices from Government Pricing system to Master Data",
+        "intent": "PublishPrices ",
+        "entities": []
+      },
+      {
+        "text": "How to import prices from Government Pricing system to Master Data",
+        "intent": "PublishPrices ",
+        "entities": []
+      },
+      {
+        "text": "Where can I define the Market Types",
+        "intent": "MarketTypes",
+        "entities": []
+      },
+      {
+        "text": "How to define market types",
+        "intent": "MarketTypes",
+        "entities": []
+      },
+      {
+        "text": "Whom we can reach out for greenstone Related queries",
+        "intent": "GreenStoneQueries",
+        "entities": []
+      },
+      {
+        "text": "POC for greenstone Related queries",
+        "intent": "GreenStoneQueries",
+        "entities": []
+      },
+      {
+        "text": "Whom we can reach out for managed care Related queries",
+        "intent": "ManagedCareQueries",
+        "entities": []
+      },
+      {
+        "text": "POC for managed care Related queries",
+        "intent": "ManagedCareQueries",
+        "entities": []
+      },
+      {
+        "text": "Whom we can reach out for MDM Related queries",
+        "intent": "MDMQueries",
+        "entities": []
+      },
+      {
+        "text": "POC for MDM Related queries",
+        "intent": "MDMQueries",
+        "entities": []
+      },
+      {
+        "text": "Whom we can reach out for AMM Related queries",
+        "intent": "AMMQueries",
+        "entities": []
+      },
+      {
+        "text": "POC for AMM Related queries",
+        "intent": "AMMQueries",
+        "entities": []
+      },
+      {
+        "text": "Whom we can reach out for CDH Related queries",
+        "intent": "CDHQueries",
+        "entities": []
+      },
+      {
+        "text": "POC for CDH Related queries",
+        "intent": "CDHQueries",
+        "entities": []
+      },
+      {
+        "text": "Whom we can reach out for government pricing Related queries",
+        "intent": "PricingQueries",
+        "entities": []
+      },
+      {
+        "text": "POC for government pricing Related queries",
+        "intent": "PricingQueries",
+        "entities": []
+      },
+      {
+        "text": "Is it possible to create a report in bo",
+        "intent": "ReportBO",
+        "entities": [
+          {
+            "start": 37,
+            "end": 39,
+            "value": "bo",
+            "entity": "reportBO"
+          }
+        ]
+      },
+      {
+        "text": "How can we create a report in bo",
+        "intent": "ReportBO",
+        "entities": [
+          {
+            "start": 30,
+            "end": 32,
+            "value": "bo",
+            "entity": "reportBO"
+          }
+        ]
+      },
+      {
+        "text": "Please help me to create a report in bo",
+        "intent": "ReportBO",
+        "entities": [
+          {
+            "start": 37,
+            "end": 39,
+            "value": "bo",
+            "entity": "reportBO"
+          }
+        ]
+      },
+      {
+        "text": "Can I create a report in bo",
+        "intent": "ReportBO",
+        "entities": [
+          {
+            "start": 25,
+            "end": 27,
+            "value": "bo",
+            "entity": "reportBO"
+          }
+        ]
+      },
+      {
+        "text": "What are the steps to create a bo report ",
+        "intent": "ReportBO",
+        "entities": [
+          {
+            "start": 31,
+            "end": 41,
+            "value": "bo report ",
+            "entity": "reportBO"
+          }
+        ]
+      },
+      {
+        "text": "Is it possible to create a Universe in BO",
+        "intent": "CreateUniverse",
+        "entities": []
+      },
+      {
+        "text": "How can we create a Universe in BO",
+        "intent": "CreateUniverse",
+        "entities": []
+      },
+      {
+        "text": "Please help me to create a Universe in BO",
+        "intent": "CreateUniverse",
+        "entities": []
+      },
+      {
+        "text": "Can I create a Universe in BO",
+        "intent": "CreateUniverse",
+        "entities": []
+      },
+      {
+        "text": "What are the steps to create a BO Universe",
+        "intent": "CreateUniverse",
+        "entities": []
+      },
+      {
+        "text": "Where can I find the reports folder and path ",
+        "intent": "ManageCareReportsLocation",
+        "entities": []
+      },
+      {
+        "text": "Please help me to get the reports folder and path",
+        "intent": "ManageCareReportsLocation",
+        "entities": []
+      },
+      {
+        "text": "What is the Sharepoint link for report folder and path",
+        "intent": "ManageCareReportsLocation",
+        "entities": []
+      },
+      {
+        "text": "I m not able to find the report folder and path",
+        "intent": "ManageCareReportsLocation",
+        "entities": []
+      },
+      {
+        "text": "How to get the folder and path of the BO reports ",
+        "intent": "ManageCareReportsLocation",
+        "entities": []
+      },
+      {
+        "text": "What is the DL for BO ",
+        "intent": "BOQueries",
+        "entities": []
+      },
+      {
+        "text": "I am having an issue in BO can you please help",
+        "intent": "BOQueries",
+        "entities": []
+      },
+      {
+        "text": "Where can I get help for BO related issues",
+        "intent": "BOQueries",
+        "entities": []
+      },
+      {
+        "text": "What is the mail id for BO support ",
+        "intent": "BOQueries",
+        "entities": []
+      },
+      {
+        "text": "I want report in excel sheet ",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "I want report in PDF format",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "How can I extract a report data",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "Chargebacks Analysis and Paid Chargebacks related reports ",
+        "intent": "Chargebackreports",
+        "entities": []
+      },
+      {
+        "text": "Is there any reports related to Chargebacks Analysis and Paid Chargebacks",
+        "intent": "Chargebackreports",
+        "entities": []
+      },
+      {
+        "text": "From which reports I can get the Chargebacks Analysis and Paid Chargebacks data",
+        "intent": "Chargebackreports",
+        "entities": []
+      },
+      {
+        "text": "I want a report which has Chargebacks Analysis and Paid Chargebacks data",
+        "intent": "Chargebackreports",
+        "entities": []
+      },
+      {
+        "text": "Where can I find the technical or functional documents related to Managed Care reports",
+        "intent": "ManageCareReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "Is there any technical or functional documents for Managed Care reports",
+        "intent": "ManageCareReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "I need a technical and functional document for Managed Care reports",
+        "intent": "ManageCareReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "Where can I find the technical or functional documents related to gRebates reports",
+        "intent": "GreenStoneReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "Is there any technical or functional documents for gRebates reports",
+        "intent": "GreenStoneReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "I need a technical and functional document for gRebates reports",
+        "intent": "GreenStoneReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "How can I update the market type for the active contract",
+        "intent": "MarketTypeContract",
+        "entities": []
+      },
+      {
+        "text": "Is it possible to update the market type for the active contract",
+        "intent": "MarketTypeContract",
+        "entities": []
+      },
+      {
+        "text": "I want to update the market type for the active contract",
+        "intent": "MarketTypeContract",
+        "entities": []
+      },
+      {
+        "text": "Is it possible to get ISA control number for EDI transaction ",
+        "intent": "ISAControlNumber",
+        "entities": []
+      },
+      {
+        "text": "I want ISA control number for EDI transaction ",
+        "intent": "ISAControlNumber",
+        "entities": []
+      },
+      {
+        "text": "Please let me know how can I get ISA control number for EDI transaction",
+        "intent": "ISAControlNumber",
+        "entities": []
+      },
+      {
+        "text": "Is it possible to update the contract entity ",
+        "intent": "ContractEntityUpdate",
+        "entities": []
+      },
+      {
+        "text": "I want to update the contract entity",
+        "intent": "ContractEntityUpdate",
+        "entities": []
+      },
+      {
+        "text": "Please let me know how can I update the contract entity",
+        "intent": "ContractEntityUpdate",
+        "entities": []
+      },
+      {
+        "text": "Is it possible to get the list of contracts tied with product set",
+        "intent": "ContractList",
+        "entities": []
+      },
+      {
+        "text": "I want the list of contracts tied with product set",
+        "intent": "ContractList",
+        "entities": []
+      },
+      {
+        "text": "I want the list of contracts linked to product set",
+        "intent": "ContractList",
+        "entities": []
+      },
+      {
+        "text": "What is the DL for Contracts ",
+        "intent": "ContractsRelatedQueries",
+        "entities": []
+      },
+      {
+        "text": "I am having an issue in Contracts can you please help",
+        "intent": "ContractsRelatedQueries",
+        "entities": []
+      },
+      {
+        "text": "Where can I get help for Contracts related issues",
+        "intent": "ContractsRelatedQueries",
+        "entities": []
+      },
+      {
+        "text": "What is the mail id for Contracts support",
+        "intent": "ContractsRelatedQueries",
+        "entities": []
+      },
+      {
+        "text": "Where can I find the technical or functional documents related to Contracts interface",
+        "intent": "ContractInterfaceDocs",
+        "entities": []
+      },
+      {
+        "text": "Are there any technical or functional documents for Contracts interface",
+        "intent": "ContractInterfaceDocs",
+        "entities": []
+      },
+      {
+        "text": "I need a technical and functional document for Contracts interface",
+        "intent": "ContractInterfaceDocs",
+        "entities": []
+      },
+      {
+        "text": "I want import prices in contract",
+        "intent": "ContractPricingImport",
+        "entities": []
+      },
+      {
+        "text": "How can I import prices in contract",
+        "intent": "ContractPricingImport",
+        "entities": []
+      },
+      {
+        "text": "Please help me with pricing import in contracts",
+        "intent": "ContractPricingImport",
+        "entities": []
+      },
+      {
+        "text": "I want EDI Notification template cheat sheet",
+        "intent": "EDINotificationTemplate",
+        "entities": []
+      },
+      {
+        "text": "Where can I find the notification template cheat sheet",
+        "intent": "EDINotificationTemplate",
+        "entities": []
+      },
+      {
+        "text": "Do we have cheat sheet for EDI Notification template",
+        "intent": "EDINotificationTemplate",
+        "entities": []
+      },
+      {
+        "text": "Do contract entity gets EDI 845 notification ",
+        "intent": "EDI845Notification",
+        "entities": []
+      },
+      {
+        "text": "How can we send EDI 845 notification to contract entity ",
+        "intent": "EDI845Notification",
+        "entities": []
+      },
+      {
+        "text": "Can you please provide a report of prime vendors which are used in contract",
+        "intent": "PrimeVendor",
+        "entities": []
+      },
+      {
+        "text": "Please help me to get a report of prime vendor used in contracts",
+        "intent": "PrimeVendor",
+        "entities": []
+      },
+      {
+        "text": "How can I get the report related to prime vendors which are used in contracts",
+        "intent": "PrimeVendor",
+        "entities": []
+      },
+      {
+        "text": "What is Revenue Management",
+        "intent": "RM",
+        "entities": []
+      },
+      {
+        "text": "Can you please explain what is Revenue Management",
+        "intent": "RM",
+        "entities": []
+      },
+      {
+        "text": "What do you mean by Revenue Management ",
+        "intent": "RM",
+        "entities": []
+      },
+      {
+        "text": "Where can I find the parent child relationship of a customer in flex",
+        "intent": "ParentChildRelationship",
+        "entities": []
+      },
+      {
+        "text": "I want to see the parent child relationship of a customer  in flex",
+        "intent": "ParentChildRelationship",
+        "entities": []
+      },
+      {
+        "text": "What all screens we have in Government Pricing Module",
+        "intent": "GovtPricingModule",
+        "entities": []
+      },
+      {
+        "text": "Who can provide me access in Flex",
+        "intent": "RoleAssignment",
+        "entities": []
+      },
+      {
+        "text": "What kind of a customer is defined for a contract",
+        "intent": "CustomerContractorDefined",
+        "entities": []
+      },
+      {
+        "text": "Where can I see all the uploaded rosters",
+        "intent": "AMMRosters",
+        "entities": []
+      },
+      {
+        "text": "I want to see all the uploaded rosters",
+        "intent": "AMMRosters",
+        "entities": []
+      },
+      {
+        "text": "How can I sync up Masterdata components in Government Pricing application",
+        "intent": "MasterdataGovtPricing",
+        "entities": []
+      },
+      {
+        "text": "Is there a job to sync up masterdata components in Government Pricing application",
+        "intent": "MasterdataGovtPricing",
+        "entities": []
+      },
+      {
+        "text": "Where can I see the products pricing related information in Government Pricing.",
+        "intent": "ProductsPricing",
+        "entities": []
+      },
+      {
+        "text": "What is the table name which stores products pricing related information in Government Pricing",
+        "intent": "ProductsPricing",
+        "entities": []
+      },
+      {
+        "text": "In which table can I see the  products pricing related information in Government Pricing",
+        "intent": "PriceTypes",
+        "entities": []
+      },
+      {
+        "text": "What is the table name which stores pricing related information in Government Pricing",
+        "intent": "PriceTypes",
+        "entities": []
+      },
+      {
+        "text": "Is there a way to import prices from MDM to Government Pricing system",
+        "intent": "MDMImportPrices",
+        "entities": []
+      },
+      {
+        "text": "I want to import prices from MDM to Government Pricing system",
+        "intent": "MDMImportPrices",
+        "entities": []
+      },
+      {
+        "text": "Please help me to import prices from MDM to Government Pricing system",
+        "intent": "MDMImportPrices",
+        "entities": []
+      },
+      {
+        "text": "In a contract where can I see the associated product set and the underlying product details",
+        "intent": "CheckProductDetails",
+        "entities": []
+      },
+      {
+        "text": "Where can I see the product set and the underlying product detail associated to a contract",
+        "intent": "CheckProductDetails",
+        "entities": []
+      },
+      {
+        "text": "Where I can see the pricing information of contract in flex",
+        "intent": "ContractPricingInfo",
+        "entities": []
+      },
+      {
+        "text": "I want to see the pricing information of a contract",
+        "intent": "ContractPricingInfo",
+        "entities": []
+      },
+      {
+        "text": "I want to see the contract related information in database",
+        "intent": "ContractDetailAccess",
+        "entities": []
+      },
+      {
+        "text": "What is the name of the table which stores the contract related information",
+        "intent": "ContractDetailAccess",
+        "entities": []
+      },
+      {
+        "text": "Where can I find the contract related information in database",
+        "intent": "ContractDetailAccess",
+        "entities": []
+      },
+      {
+        "text": "I want to exempt a contract from low price calculation",
+        "intent": "LowPriceCalculationExemption",
+        "entities": []
+      },
+      {
+        "text": "How can I exclude a contract from low price calculation",
+        "intent": "LowPriceCalculationExemption",
+        "entities": []
+      },
+      {
+        "text": "I want to kick off calculation in government pricing ",
+        "intent": "KickOffCalculationScreen",
+        "entities": []
+      },
+      {
+        "text": "How can I kick off calculation in government pricing",
+        "intent": "KickOffCalculationScreen",
+        "entities": []
+      },
+      {
+        "text": "In a contract where can I see the associated Customer Eligibility Set and the underlying Customer details",
+        "intent": "CustomerEligibilitySet",
+        "entities": []
+      },
+      {
+        "text": "Where can I see the Customer Eligibility Set and the underlying Customer details associated to a contract",
+        "intent": "CustomerEligibilitySet",
+        "entities": []
+      },
+      {
+        "text": "How can I configure scrubs in the government pricing application",
+        "intent": "ScrubsConfiguration",
+        "entities": []
+      },
+      {
+        "text": "I want to configure scrubs in the government pricing applciation",
+        "intent": "ScrubsConfiguration",
+        "entities": []
+      },
+      {
+        "text": "What is the full form of ECP",
+        "intent": "ECP",
+        "entities": []
+      },
+      {
+        "text": "I want to publish prices from government pricing system to Master Data",
+        "intent": "PublishPrices ",
+        "entities": []
+      },
+      {
+        "text": "Is it possible to publish price from government pricing system to Master Data",
+        "intent": "PublishPrices ",
+        "entities": []
+      },
+      {
+        "text": "Which job will help me to publish price from government pricing system to Master Data",
+        "intent": "PublishPrices ",
+        "entities": []
+      },
+      {
+        "text": "I want to define market types in flex",
+        "intent": "MarketTypes",
+        "entities": []
+      },
+      {
+        "text": "Please help me to define market types in flex",
+        "intent": "MarketTypes",
+        "entities": []
+      },
+      {
+        "text": "What is the DL for gRebates ",
+        "intent": "GreenStoneQueries",
+        "entities": []
+      },
+      {
+        "text": "I am having an issue in gRebates can you please help",
+        "intent": "GreenStoneQueries",
+        "entities": []
+      },
+      {
+        "text": "Where can I get help for gRebates related issues",
+        "intent": "GreenStoneQueries",
+        "entities": []
+      },
+      {
+        "text": "What is the mail id for gRebates support ",
+        "intent": "GreenStoneQueries",
+        "entities": []
+      },
+      {
+        "text": "What is the DL for Managed Care",
+        "intent": "ManagedCareQueries",
+        "entities": []
+      },
+      {
+        "text": "I am having an issue in Managed Care can you please help",
+        "intent": "ManagedCareQueries",
+        "entities": []
+      },
+      {
+        "text": "Where can I get help for Managed Care related issues",
+        "intent": "ManagedCareQueries",
+        "entities": []
+      },
+      {
+        "text": "What is the mail id for Managed Care support ",
+        "intent": "ManagedCareQueries",
+        "entities": []
+      },
+      {
+        "text": "What is the DL for MDM ",
+        "intent": "MDMQueries",
+        "entities": []
+      },
+      {
+        "text": "I am having an issue in MDM can you please help",
+        "intent": "MDMQueries",
+        "entities": []
+      },
+      {
+        "text": "Where can I get help for MDM related issues",
+        "intent": "MDMQueries",
+        "entities": []
+      },
+      {
+        "text": "What is the mail id for MDM support ",
+        "intent": "MDMQueries",
+        "entities": []
+      },
+      {
+        "text": "What is the DL for AMM ",
+        "intent": "AMMQueries",
+        "entities": []
+      },
+      {
+        "text": "I am having an issue in AMM can you please help",
+        "intent": "AMMQueries",
+        "entities": []
+      },
+      {
+        "text": "Where can I get help for AMM related issues",
+        "intent": "AMMQueries",
+        "entities": []
+      },
+      {
+        "text": "What is the mail id for AMM support ",
+        "intent": "AMMQueries",
+        "entities": []
+      },
+      {
+        "text": "What is the DL for CDH ",
+        "intent": "CDHQueries",
+        "entities": []
+      },
+      {
+        "text": "I am having an issue in CDH can you please help",
+        "intent": "CDHQueries",
+        "entities": []
+      },
+      {
+        "text": "Where can I get help for CDH related issues",
+        "intent": "CDHQueries",
+        "entities": []
+      },
+      {
+        "text": "What is the mail id for CDH support",
+        "intent": "CDHQueries",
+        "entities": []
+      },
+      {
+        "text": "What is the DL for GP ",
+        "intent": "PricingQueries",
+        "entities": []
+      },
+      {
+        "text": "I am having an issue in GP can you please help",
+        "intent": "PricingQueries",
+        "entities": []
+      },
+      {
+        "text": "Where can I get help for GP related issues",
+        "intent": "PricingQueries",
+        "entities": []
+      },
+      {
+        "text": "What is the mail id for GP support ",
+        "intent": "PricingQueries",
+        "entities": []
+      },
+      {
+        "text": "Process to create bo report",
+        "intent": "ReportBO",
+        "entities": [
+          {
+            "start": 18,
+            "end": 20,
+            "value": "bo",
+            "entity": "reportBO"
+          }
+        ]
+      },
+      {
+        "text": "Process to createa a BO Universe",
+        "intent": "CreateUniverse",
+        "entities": []
+      },
+      {
+        "text": "Managed care reports",
+        "intent": "ManageCareReportsLocation",
+        "entities": []
+      },
+      {
+        "text": "POC for BO",
+        "intent": "BOQueries",
+        "entities": []
+      },
+      {
+        "text": "Process to get report in excel or pdf",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "Where can i access Chargebacks Analysis and Paid Chargebacks data",
+        "intent": "Chargebackreports",
+        "entities": []
+      },
+      {
+        "text": "Paid Chargeback report please",
+        "intent": "Chargebackreports",
+        "entities": []
+      },
+      {
+        "text": "I need Finance paid chargeback report",
+        "intent": "Chargebackreports",
+        "entities": []
+      },
+      {
+        "text": " How to get approve chargeback report",
+        "intent": "Chargebackreports",
+        "entities": []
+      },
+      {
+        "text": "FD for managed care reports",
+        "intent": "ManageCareReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "TD for managed care reports",
+        "intent": "ManageCareReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "FD for greenstone reports",
+        "intent": "GreenStoneReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "TD for greenstone reports",
+        "intent": "GreenStoneReportsDocs",
+        "entities": []
+      },
+      {
+        "text": " can I change market type for active contract",
+        "intent": "MarketTypeContract",
+        "entities": []
+      },
+      {
+        "text": "Can I change contract entity",
+        "intent": "ContractEntityUpdate",
+        "entities": []
+      },
+      {
+        "text": "Please share the contracts with a product set",
+        "intent": "ContractList",
+        "entities": []
+      },
+      {
+        "text": "POC for contract query",
+        "intent": "ContractsRelatedQueries",
+        "entities": []
+      },
+      {
+        "text": "FD for contract interface",
+        "intent": "ContractInterfaceDocs",
+        "entities": []
+      },
+      {
+        "text": "TD for contract interface",
+        "intent": "ContractInterfaceDocs",
+        "entities": []
+      },
+      {
+        "text": "Where can I locate EDI notify sheet",
+        "intent": "EDINotificationTemplate",
+        "entities": []
+      },
+      {
+        "text": "Where to find EDI notify template ",
+        "intent": "EDINotificationTemplate",
+        "entities": []
+      },
+      {
+        "text": "Is it possible to send EDI 845 notification to contract entity",
+        "intent": "EDI845Notification",
+        "entities": []
+      },
+      {
+        "text": "Give me a complete list of prime vendors in contract",
+        "intent": "PrimeVendor",
+        "entities": []
+      },
+      {
+        "text": "RM means",
+        "intent": "RM",
+        "entities": []
+      },
+      {
+        "text": "What does RM stand for",
+        "intent": "RM",
+        "entities": []
+      },
+      {
+        "text": "What is the full form of RM",
+        "intent": "RM",
+        "entities": []
+      },
+      {
+        "text": "What is parent child relation of a customer",
+        "intent": "ParentChildRelationship",
+        "entities": []
+      },
+      {
+        "text": " Can I see various screen in Government pricing",
+        "intent": "GovtPricingModule",
+        "entities": []
+      },
+      {
+        "text": " POC for Flex access",
+        "intent": "RoleAssignment",
+        "entities": []
+      },
+      {
+        "text": "How is a customer defined for a contract",
+        "intent": "CustomerContractorDefined",
+        "entities": []
+      },
+      {
+        "text": "How can I see roster list",
+        "intent": "AMMRosters",
+        "entities": []
+      },
+      {
+        "text": "How can I see product price in government price",
+        "intent": "ProductsPricing",
+        "entities": []
+      },
+      {
+        "text": "How can I see price type in government price",
+        "intent": "PriceTypes",
+        "entities": []
+      },
+      {
+        "text": "In a contract, how can I check product set and its details",
+        "intent": "CheckProductDetails",
+        "entities": []
+      },
+      {
+        "text": "How can I see contract price",
+        "intent": "ContractPricingInfo",
+        "entities": []
+      },
+      {
+        "text": "How can I access contract info",
+        "intent": "ContractDetailAccess",
+        "entities": []
+      },
+      {
+        "text": "How to prevent low price calculation in a contract",
+        "intent": "LowPriceCalculationExemption",
+        "entities": []
+      },
+      {
+        "text": " How to initiate calculation for government price",
+        "intent": "KickOffCalculationScreen",
+        "entities": []
+      },
+      {
+        "text": "Can you tell me where to access government price calculations",
+        "intent": "KickOffCalculationScreen",
+        "entities": []
+      },
+      {
+        "text": "ECP means",
+        "intent": "ECP",
+        "entities": []
+      },
+      {
+        "text": "What do you mean by ECP",
+        "intent": "ECP",
+        "entities": []
+      },
+      {
+        "text": "Can you please explain ECP",
+        "intent": "ECP",
+        "entities": []
+      },
+      {
+        "text": "How to define Market Type",
+        "intent": "MarketTypes",
+        "entities": []
+      },
+      {
+        "text": "Can I define Market type",
+        "intent": "MarketTypes",
+        "entities": []
+      },
+      {
+        "text": "POC for grebate",
+        "intent": "GreenStoneQueries",
+        "entities": []
+      },
+      {
+        "text": "POC for managed care",
+        "intent": "ManagedCareQueries",
+        "entities": []
+      },
+      {
+        "text": "POC for MDM",
+        "intent": "MDMQueries",
+        "entities": []
+      },
+      {
+        "text": "POC for AMM",
+        "intent": "AMMQueries",
+        "entities": []
+      },
+      {
+        "text": "POC for CDH",
+        "intent": "CDHQueries",
+        "entities": []
+      },
+      {
+        "text": "POC for GP",
+        "intent": "PricingQueries",
+        "entities": []
+      },
+      {
+        "text": "How to create bo report",
+        "intent": "ReportBO",
+        "entities": [
+          {
+            "start": 14,
+            "end": 16,
+            "value": "bo",
+            "entity": "reportBO"
+          }
+        ]
+      },
+      {
+        "text": "Help me create bo report",
+        "intent": "ReportBO",
+        "entities": [
+          {
+            "start": 15,
+            "end": 17,
+            "value": "bo",
+            "entity": "reportBO"
+          }
+        ]
+      },
+      {
+        "text": "Steps for bo report creation",
+        "intent": "ReportBO",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "bo report",
+            "entity": "reportBO"
+          }
+        ]
+      },
+      {
+        "text": "bo report",
+        "intent": "ReportBO",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "bo",
+            "entity": "reportBO"
+          }
+        ]
+      },
+      {
+        "text": "Create bo report",
+        "intent": "ReportBO",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "bo",
+            "entity": "reportBO"
+          }
+        ]
+      },
+      {
+        "text": "Provide bo report please",
+        "intent": "ReportBO",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "bo",
+            "entity": "reportBO"
+          }
+        ]
+      },
+      {
+        "text": "Please help me in creating report in bo",
+        "intent": "ReportBO",
+        "entities": [
+          {
+            "start": 37,
+            "end": 39,
+            "value": "bo",
+            "entity": "reportBO"
+          }
+        ]
+      },
+      {
+        "text": "Help me create Universe",
+        "intent": "CreateUniverse",
+        "entities": []
+      },
+      {
+        "text": "Steps for Universe creation",
+        "intent": "CreateUniverse",
+        "entities": []
+      },
+      {
+        "text": "Universe",
+        "intent": "CreateUniverse",
+        "entities": []
+      },
+      {
+        "text": "Create Universe",
+        "intent": "CreateUniverse",
+        "entities": []
+      },
+      {
+        "text": "Please help me in creating Universe",
+        "intent": "CreateUniverse",
+        "entities": []
+      },
+      {
+        "text": "Please help me in creating Universe",
+        "intent": "CreateUniverse",
+        "entities": []
+      },
+      {
+        "text": "Help me to get the reports folder and path",
+        "intent": "ManageCareReportsLocation",
+        "entities": []
+      },
+      {
+        "text": "SP location for managed care reports",
+        "intent": "ManageCareReportsLocation",
+        "entities": []
+      },
+      {
+        "text": "How to find managed care reports",
+        "intent": "ManageCareReportsLocation",
+        "entities": []
+      },
+      {
+        "text": "How to find the report folder and path",
+        "intent": "ManageCareReportsLocation",
+        "entities": []
+      },
+      {
+        "text": "Provide managed care reports",
+        "intent": "ManageCareReportsLocation",
+        "entities": []
+      },
+      {
+        "text": "Provide managed reports please",
+        "intent": "ManageCareReportsLocation",
+        "entities": []
+      },
+      {
+        "text": "Please help me in getting managed care reports",
+        "intent": "ManageCareReportsLocation",
+        "entities": []
+      },
+      {
+        "text": "How to resolve BO issues",
+        "intent": "BOQueries",
+        "entities": []
+      },
+      {
+        "text": "Whom to contact for BO issues",
+        "intent": "BOQueries",
+        "entities": []
+      },
+      {
+        "text": "How to get support for BO issues",
+        "intent": "BOQueries",
+        "entities": []
+      },
+      {
+        "text": "Regarding BO related issues",
+        "intent": "BOQueries",
+        "entities": []
+      },
+      {
+        "text": "How to get BO issues resolved",
+        "intent": "BOQueries",
+        "entities": []
+      },
+      {
+        "text": "Please help me in getting BO issue resolved",
+        "intent": "BOQueries",
+        "entities": []
+      },
+      {
+        "text": "Please help me in with BO issue resolution",
+        "intent": "BOQueries",
+        "entities": []
+      },
+      {
+        "text": "How to convert report to pdf",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "How to convert report to excel",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "How to export report in pdf format",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "How to export report in excel format",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "How to get report in excel",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "How to get report in pdf",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "Please help me in exporting reports",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "How can i get Chargeback reports",
+        "intent": "Chargebackreports",
+        "entities": []
+      },
+      {
+        "text": "Please help me with How can i get Chargeback reports",
+        "intent": "Chargebackreports",
+        "entities": []
+      },
+      {
+        "text": "How can i access paid and approved chargeback reports",
+        "intent": "Chargebackreports",
+        "entities": []
+      },
+      {
+        "text": "How to access chargeback analysis report",
+        "intent": "Chargebackreports",
+        "entities": []
+      },
+      {
+        "text": "Please help me with chargeback reports",
+        "intent": "Chargebackreports",
+        "entities": []
+      },
+      {
+        "text": "How to access managed care functional document",
+        "intent": "ManageCareReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "How to access managed care technical document",
+        "intent": "ManageCareReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "Can you help me with managed care related functional documents",
+        "intent": "ManageCareReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "Can you help me with managed care related technical documents",
+        "intent": "ManageCareReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "Where to access FD for managed care",
+        "intent": "ManageCareReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "How to access greenstone reports",
+        "intent": "GreenStoneReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "How to access greenstone functional document",
+        "intent": "GreenStoneReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "How to access greenstone technical document",
+        "intent": "GreenStoneReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "Can i access greenstone documents",
+        "intent": "GreenStoneReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "Can you help me with greenstone related functional documents",
+        "intent": "GreenStoneReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "Can you help me with greenstone related technical documents",
+        "intent": "GreenStoneReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "Where to access FD/TD for greenstone",
+        "intent": "GreenStoneReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "Please help me with greenstone reports",
+        "intent": "GreenStoneReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "Can I update market type for active contract",
+        "intent": "MarketTypeContract",
+        "entities": []
+      },
+      {
+        "text": "How can I change the market type for the active contract",
+        "intent": "MarketTypeContract",
+        "entities": []
+      },
+      {
+        "text": "Please guide me to update market type for active contract",
+        "intent": "MarketTypeContract",
+        "entities": []
+      },
+      {
+        "text": "Process to change market type for active contracts",
+        "intent": "MarketTypeContract",
+        "entities": []
+      },
+      {
+        "text": "Steps to change market type for active contracts",
+        "intent": "MarketTypeContract",
+        "entities": []
+      },
+      {
+        "text": "Can u guide me how to change market type for active contracts",
+        "intent": "MarketTypeContract",
+        "entities": []
+      },
+      {
+        "text": "How can I get ISA control number for EDI transaction",
+        "intent": "ISAControlNumber",
+        "entities": []
+      },
+      {
+        "text": "Please guide me in getting ISA control number for EDI transaction",
+        "intent": "ISAControlNumber",
+        "entities": []
+      },
+      {
+        "text": "Process to get ISA control number for EDI transaction",
+        "intent": "ISAControlNumber",
+        "entities": []
+      },
+      {
+        "text": "Steps to get ISA control number for EDI transactions",
+        "intent": "ISAControlNumber",
+        "entities": []
+      },
+      {
+        "text": "Can u guide me how to get ISA control number for EDI transactions",
+        "intent": "ISAControlNumber",
+        "entities": []
+      },
+      {
+        "text": "I want to get ISA control number for EDI transaction",
+        "intent": "ISAControlNumber",
+        "entities": []
+      },
+      {
+        "text": "Can I get ISA control number for EDI transactions",
+        "intent": "ISAControlNumber",
+        "entities": []
+      },
+      {
+        "text": " Can I update  contract entity",
+        "intent": "ContractEntityUpdate",
+        "entities": []
+      },
+      {
+        "text": "How can I change the  contract entity",
+        "intent": "ContractEntityUpdate",
+        "entities": []
+      },
+      {
+        "text": "Please guide me to update  contract entity",
+        "intent": "ContractEntityUpdate",
+        "entities": []
+      },
+      {
+        "text": "Process to change  contract entity",
+        "intent": "ContractEntityUpdate",
+        "entities": []
+      },
+      {
+        "text": "Steps to change  contract entity",
+        "intent": "ContractEntityUpdate",
+        "entities": []
+      },
+      {
+        "text": "Can u guide me how to change  contract entity",
+        "intent": "ContractEntityUpdate",
+        "entities": []
+      },
+      {
+        "text": "How to get list of contracts associated with a product set",
+        "intent": "ContractList",
+        "entities": []
+      },
+      {
+        "text": "How to get list of contracts associated with a product set",
+        "intent": "ContractList",
+        "entities": []
+      },
+      {
+        "text": "Where to get list of contracts for a product set",
+        "intent": "ContractList",
+        "entities": []
+      },
+      {
+        "text": "Please guide me to get list of contracts for a product set",
+        "intent": "ContractList",
+        "entities": []
+      },
+      {
+        "text": "Process to get list of contracts for a product set",
+        "intent": "ContractList",
+        "entities": []
+      },
+      {
+        "text": "Steps to get list of contracts for a product set",
+        "intent": "ContractList",
+        "entities": []
+      },
+      {
+        "text": "Can u guide me how to get list of contracts associated with a product set",
+        "intent": "ContractList",
+        "entities": []
+      },
+      {
+        "text": "How to resolve contract related issues",
+        "intent": "ContractsRelatedQueries",
+        "entities": []
+      },
+      {
+        "text": "Whom to contact for contract issues",
+        "intent": "ContractsRelatedQueries",
+        "entities": []
+      },
+      {
+        "text": "How to get support for contract issues",
+        "intent": "ContractsRelatedQueries",
+        "entities": []
+      },
+      {
+        "text": "Regarding contract related issues",
+        "intent": "ContractsRelatedQueries",
+        "entities": []
+      },
+      {
+        "text": "How to get contract issues resolved",
+        "intent": "ContractsRelatedQueries",
+        "entities": []
+      },
+      {
+        "text": "Please help me in getting contract issue resolved",
+        "intent": "ContractsRelatedQueries",
+        "entities": []
+      },
+      {
+        "text": "Please help me in with contract issue resolution",
+        "intent": "ContractsRelatedQueries",
+        "entities": []
+      },
+      {
+        "text": "TD for contract interface",
+        "intent": "ContractInterfaceDocs",
+        "entities": []
+      },
+      {
+        "text": "How to access contract interface reports",
+        "intent": "ContractInterfaceDocs",
+        "entities": []
+      },
+      {
+        "text": "How to access contract interface functional document",
+        "intent": "ContractInterfaceDocs",
+        "entities": []
+      },
+      {
+        "text": "How to access contract interface technical document",
+        "intent": "ContractInterfaceDocs",
+        "entities": []
+      },
+      {
+        "text": "Can i access contract interface documents",
+        "intent": "ContractInterfaceDocs",
+        "entities": []
+      },
+      {
+        "text": "Can you help me with contract interface related functional documents",
+        "intent": "ContractInterfaceDocs",
+        "entities": []
+      },
+      {
+        "text": "Can you help me with contract interface related technical documents",
+        "intent": "ContractInterfaceDocs",
+        "entities": []
+      },
+      {
+        "text": "Where to access FD/TD for contract interface",
+        "intent": "ContractInterfaceDocs",
+        "entities": []
+      },
+      {
+        "text": "Please help me with contract interface reports",
+        "intent": "ContractInterfaceDocs",
+        "entities": []
+      },
+      {
+        "text": "Can i access EDI Notification template ",
+        "intent": "EDINotificationTemplate",
+        "entities": []
+      },
+      {
+        "text": "Can you help me with EDI Notification template ",
+        "intent": "EDINotificationTemplate",
+        "entities": []
+      },
+      {
+        "text": "Where to access EDI notify sheet",
+        "intent": "EDINotificationTemplate",
+        "entities": []
+      },
+      {
+        "text": "Please help me with EDI notify sheet",
+        "intent": "EDINotificationTemplate",
+        "entities": []
+      },
+      {
+        "text": "I want to see EDI Notification template cheat sheet",
+        "intent": "EDINotificationTemplate",
+        "entities": []
+      },
+      {
+        "text": "What is EDI Notification template cheat sheet",
+        "intent": "EDINotificationTemplate",
+        "entities": []
+      },
+      {
+        "text": " Can you please suggest if i can  send EDI 845 notification to contract entity",
+        "intent": "EDI845Notification",
+        "entities": []
+      },
+      {
+        "text": "Please help me to send EDI 845 notification to contract entity",
+        "intent": "EDI845Notification",
+        "entities": []
+      },
+      {
+        "text": "How can I  send EDI 845 notification to contract entity",
+        "intent": "EDI845Notification",
+        "entities": []
+      },
+      {
+        "text": "I want to  send EDI 845 notification to contract entity",
+        "intent": "EDI845Notification",
+        "entities": []
+      },
+      {
+        "text": "How to send EDI 845 notification to contract entity",
+        "intent": "EDI845Notification",
+        "entities": []
+      },
+      {
+        "text": "Where to  send EDI 845 notification to contract entity",
+        "intent": "EDI845Notification",
+        "entities": []
+      },
+      {
+        "text": "Please guide me to  send EDI 845 notification to contract entity",
+        "intent": "EDI845Notification",
+        "entities": []
+      },
+      {
+        "text": "Process to send EDI 845 notification to contract entity",
+        "intent": "EDI845Notification",
+        "entities": []
+      },
+      {
+        "text": "Steps to send EDI 845 notification to contract entity",
+        "intent": "EDI845Notification",
+        "entities": []
+      },
+      {
+        "text": "Can u guide me how to  send EDI 845 notification to contract entity",
+        "intent": "EDI845Notification",
+        "entities": []
+      },
+      {
+        "text": "Is it possible to get the list of prime vendors in contract",
+        "intent": "PrimeVendor",
+        "entities": []
+      },
+      {
+        "text": "Is it possible to get the list of prime vendors in contract",
+        "intent": "PrimeVendor",
+        "entities": []
+      },
+      {
+        "text": "I want the list of prime vendors in contract",
+        "intent": "PrimeVendor",
+        "entities": []
+      },
+      {
+        "text": "I want the see the list of prime vendors in a contract",
+        "intent": "PrimeVendor",
+        "entities": []
+      },
+      {
+        "text": "Please share the list of prime vendors in contract",
+        "intent": "PrimeVendor",
+        "entities": []
+      },
+      {
+        "text": "How to get list of prime vendors in contract",
+        "intent": "PrimeVendor",
+        "entities": []
+      },
+      {
+        "text": "Where to get list of prime vendors in contract",
+        "intent": "PrimeVendor",
+        "entities": []
+      },
+      {
+        "text": "Please guide me to get list of prime vendors in contract",
+        "intent": "PrimeVendor",
+        "entities": []
+      },
+      {
+        "text": "Process to get list of prime vendors in contract",
+        "intent": "PrimeVendor",
+        "entities": []
+      },
+      {
+        "text": "Steps to get list of prime vendors in contract",
+        "intent": "PrimeVendor",
+        "entities": []
+      },
+      {
+        "text": "Can u guide me how to get list of prime vendors in contract",
+        "intent": "PrimeVendor",
+        "entities": []
+      },
+      {
+        "text": "RM stands for",
+        "intent": "RM",
+        "entities": []
+      },
+      {
+        "text": "I want to know about RM",
+        "intent": "RM",
+        "entities": []
+      },
+      {
+        "text": "I need to know what does RM means",
+        "intent": "RM",
+        "entities": []
+      },
+      {
+        "text": "Can you please tell me about RM",
+        "intent": "RM",
+        "entities": []
+      },
+      {
+        "text": "What is the full form of RM",
+        "intent": "RM",
+        "entities": []
+      },
+      {
+        "text": "What is RM",
+        "intent": "RM",
+        "entities": []
+      },
+      {
+        "text": "What do you mean by RM",
+        "intent": "RM",
+        "entities": []
+      },
+      {
+        "text": "Can you please explain RM",
+        "intent": "RM",
+        "entities": []
+      },
+      {
+        "text": "I want parent child relation of a customer",
+        "intent": "ParentChildRelationship",
+        "entities": []
+      },
+      {
+        "text": "Do we have parent child relationship of a customer in flex",
+        "intent": "ParentChildRelationship",
+        "entities": []
+      },
+      {
+        "text": "Where can I locate parent child relationship of a customer in flex",
+        "intent": "ParentChildRelationship",
+        "entities": []
+      },
+      {
+        "text": "Where to find parent child relationship of a customer in flex ",
+        "intent": "ParentChildRelationship",
+        "entities": []
+      },
+      {
+        "text": "How to access parent child relationship of a customer in flex",
+        "intent": "ParentChildRelationship",
+        "entities": []
+      },
+      {
+        "text": "Can i access parent child relationship of a customer in flex",
+        "intent": "ParentChildRelationship",
+        "entities": []
+      },
+      {
+        "text": "Can you help me with parent child relationship of a customer ",
+        "intent": "ParentChildRelationship",
+        "entities": []
+      },
+      {
+        "text": "Where to access parent child relationship of a customer ",
+        "intent": "ParentChildRelationship",
+        "entities": []
+      },
+      {
+        "text": "Please help me with parent child relationship of a customer in flex",
+        "intent": "ParentChildRelationship",
+        "entities": []
+      },
+      {
+        "text": "What are screen in Government pricing applications",
+        "intent": "GovtPricingModule",
+        "entities": []
+      },
+      {
+        "text": "I want to know screen in Government pricing app",
+        "intent": "GovtPricingModule",
+        "entities": []
+      },
+      {
+        "text": "Do we have screens in Government pricing app",
+        "intent": "GovtPricingModule",
+        "entities": []
+      },
+      {
+        "text": "How to view screen in Government pricing application",
+        "intent": "GovtPricingModule",
+        "entities": []
+      },
+      {
+        "text": "Can i see screen in Government pricing system",
+        "intent": "GovtPricingModule",
+        "entities": []
+      },
+      {
+        "text": "Can you help me with screen in Government pricing app",
+        "intent": "GovtPricingModule",
+        "entities": []
+      },
+      {
+        "text": "Please help me with screen in Government pricing application",
+        "intent": "GovtPricingModule",
+        "entities": []
+      },
+      {
+        "text": "I want to see screens in Government pricing app",
+        "intent": "GovtPricingModule",
+        "entities": []
+      },
+      {
+        "text": "Where can I get help with user access related issues",
+        "intent": "RoleAssignment",
+        "entities": []
+      },
+      {
+        "text": "What is the mail id for user access support ",
+        "intent": "RoleAssignment",
+        "entities": []
+      },
+      {
+        "text": "I am having an issue in accessing. can you please help",
+        "intent": "RoleAssignment",
+        "entities": []
+      },
+      {
+        "text": "How to resolve user access issues",
+        "intent": "RoleAssignment",
+        "entities": []
+      },
+      {
+        "text": "Whom to contact for user access issues",
+        "intent": "RoleAssignment",
+        "entities": []
+      },
+      {
+        "text": "How to get support for user access related issues",
+        "intent": "RoleAssignment",
+        "entities": []
+      },
+      {
+        "text": "Regarding user access related issues",
+        "intent": "RoleAssignment",
+        "entities": []
+      },
+      {
+        "text": "How to get user access issues resolved",
+        "intent": "RoleAssignment",
+        "entities": []
+      },
+      {
+        "text": "Please help me in getting user access issue resolved",
+        "intent": "RoleAssignment",
+        "entities": []
+      },
+      {
+        "text": "Please help me with user access issue resolution",
+        "intent": "RoleAssignment",
+        "entities": []
+      },
+      {
+        "text": "Can I define a customer for a contract",
+        "intent": "CustomerContractorDefined",
+        "entities": []
+      },
+      {
+        "text": "I want to know the customer to which a Contract is defined for",
+        "intent": "CustomerContractorDefined",
+        "entities": []
+      },
+      {
+        "text": "Do we have type of Customer to which a Contract is defined for",
+        "intent": "CustomerContractorDefined",
+        "entities": []
+      },
+      {
+        "text": "How to know the type of Customer to which a Contract is defined for",
+        "intent": "CustomerContractorDefined",
+        "entities": []
+      },
+      {
+        "text": "Can i view the type of Customer to which a Contract is defined for",
+        "intent": "CustomerContractorDefined",
+        "entities": []
+      },
+      {
+        "text": "Can you help me with knowing the Customer type to which a Contract is defined for",
+        "intent": "CustomerContractorDefined",
+        "entities": []
+      },
+      {
+        "text": "Please help me type of Customer to which a Contract is defined for",
+        "intent": "CustomerContractorDefined",
+        "entities": []
+      },
+      {
+        "text": "I want to see customer type to which a Contract is defined for",
+        "intent": "CustomerContractorDefined",
+        "entities": []
+      },
+      {
+        "text": "I want roster list in AMM",
+        "intent": "AMMRosters",
+        "entities": []
+      },
+      {
+        "text": "Do we have  roster list in AMM",
+        "intent": "AMMRosters",
+        "entities": []
+      },
+      {
+        "text": "Where can I locate  roster list in AMM",
+        "intent": "AMMRosters",
+        "entities": []
+      },
+      {
+        "text": "Where to find  roster list in AMM",
+        "intent": "AMMRosters",
+        "entities": []
+      },
+      {
+        "text": "How to access  roster list in AMM",
+        "intent": "AMMRosters",
+        "entities": []
+      },
+      {
+        "text": "Can i access  roster list in AMM",
+        "intent": "AMMRosters",
+        "entities": []
+      },
+      {
+        "text": "Can you help me with uploaded rosters",
+        "intent": "AMMRosters",
+        "entities": []
+      },
+      {
+        "text": "Where to access  roster list in AMM",
+        "intent": "AMMRosters",
+        "entities": []
+      },
+      {
+        "text": "Please help me with  roster list in AMM",
+        "intent": "AMMRosters",
+        "entities": []
+      },
+      {
+        "text": "Is there a roster list in AMM",
+        "intent": "AMMRosters",
+        "entities": []
+      },
+      {
+        "text": "Where can I sync up masterdata components in Government Pricing",
+        "intent": "MasterdataGovtPricing",
+        "entities": []
+      },
+      {
+        "text": "I want to sync up masterdata components in Government Pricing app",
+        "intent": "MasterdataGovtPricing",
+        "entities": []
+      },
+      {
+        "text": "How can I sync up masterdata components in Government Pricing app",
+        "intent": "MasterdataGovtPricing",
+        "entities": []
+      },
+      {
+        "text": "I want masterdata sync up  in Government Pricing application",
+        "intent": "MasterdataGovtPricing",
+        "entities": []
+      },
+      {
+        "text": "Where can I sync masterdata components in Government Pricing application",
+        "intent": "MasterdataGovtPricing",
+        "entities": []
+      },
+      {
+        "text": "How to sync up masterdata components in Government Pricing application",
+        "intent": "MasterdataGovtPricing",
+        "entities": []
+      },
+      {
+        "text": "Can i sync up masterdata components in Government Pricing application",
+        "intent": "MasterdataGovtPricing",
+        "entities": []
+      },
+      {
+        "text": "Can you help me with masterdata sync up  in Government Pricing application",
+        "intent": "MasterdataGovtPricing",
+        "entities": []
+      },
+      {
+        "text": "Where to sync up masterdata components in Government Pricing application",
+        "intent": "MasterdataGovtPricing",
+        "entities": []
+      },
+      {
+        "text": "Please help me with  masterdata sync up  in Government Pricing application",
+        "intent": "MasterdataGovtPricing",
+        "entities": []
+      },
+      {
+        "text": "What is the join that sync up masterdata components in Government Pricing application",
+        "intent": "MasterdataGovtPricing",
+        "entities": []
+      },
+      {
+        "text": "Is there a table to see product price in government pricing",
+        "intent": "ProductsPricing",
+        "entities": []
+      },
+      {
+        "text": "Where can I see product price in government pricing",
+        "intent": "ProductsPricing",
+        "entities": []
+      },
+      {
+        "text": "I want to view product price in government pricing app",
+        "intent": "ProductsPricing",
+        "entities": []
+      },
+      {
+        "text": "How can I see product price in government pricing app",
+        "intent": "ProductsPricing",
+        "entities": []
+      },
+      {
+        "text": "I want to know where to store product price in government pricing application",
+        "intent": "ProductsPricing",
+        "entities": []
+      },
+      {
+        "text": "Where can I see product price in government pricing application",
+        "intent": "ProductsPricing",
+        "entities": []
+      },
+      {
+        "text": "How to view product price in government pricing application",
+        "intent": "ProductsPricing",
+        "entities": []
+      },
+      {
+        "text": "Can i view product price in government pricing application",
+        "intent": "ProductsPricing",
+        "entities": []
+      },
+      {
+        "text": "Can you help me with viewing product price in government pricing application",
+        "intent": "ProductsPricing",
+        "entities": []
+      },
+      {
+        "text": "Where to see product price in government pricing application",
+        "intent": "ProductsPricing",
+        "entities": []
+      },
+      {
+        "text": "Please help me with  product price table in government pricing application",
+        "intent": "ProductsPricing",
+        "entities": []
+      },
+      {
+        "text": "What is the table that stores product price in government pricing application",
+        "intent": "ProductsPricing",
+        "entities": []
+      },
+      {
+        "text": "Is there a table to store price type in government pricing",
+        "intent": "PriceTypes",
+        "entities": []
+      },
+      {
+        "text": "Where can I store price type in government pricing",
+        "intent": "PriceTypes",
+        "entities": []
+      },
+      {
+        "text": "I want to store price type in government pricing app",
+        "intent": "PriceTypes",
+        "entities": []
+      },
+      {
+        "text": "How can I store price type in government pricing app",
+        "intent": "PriceTypes",
+        "entities": []
+      },
+      {
+        "text": "I want to know where to store price type in government pricing application",
+        "intent": "PriceTypes",
+        "entities": []
+      },
+      {
+        "text": "Where can I store price type in government pricing application",
+        "intent": "PriceTypes",
+        "entities": []
+      },
+      {
+        "text": "How to store price type in government pricing application",
+        "intent": "PriceTypes",
+        "entities": []
+      },
+      {
+        "text": "Can i store price type in government pricing application",
+        "intent": "PriceTypes",
+        "entities": []
+      },
+      {
+        "text": "Can you help me with storing price type in government pricing application",
+        "intent": "PriceTypes",
+        "entities": []
+      },
+      {
+        "text": "Where to store price type in government pricing application",
+        "intent": "PriceTypes",
+        "entities": []
+      },
+      {
+        "text": "Please help me with  price type table in government pricing application",
+        "intent": "PriceTypes",
+        "entities": []
+      },
+      {
+        "text": "What is the table that stores price type in government pricing application",
+        "intent": "PriceTypes",
+        "entities": []
+      },
+      {
+        "text": "Can I do price import from MDM to Government Pricing system",
+        "intent": "MDMImportPrices",
+        "entities": []
+      },
+      {
+        "text": "Is it possible to import prices from MDM to Government Pricing system",
+        "intent": "MDMImportPrices",
+        "entities": []
+      },
+      {
+        "text": "How can I import prices from MDM to Government Pricing system",
+        "intent": "MDMImportPrices",
+        "entities": []
+      },
+      {
+        "text": "Please guide me to import prices from MDM to Government Pricing system",
+        "intent": "MDMImportPrices",
+        "entities": []
+      },
+      {
+        "text": "Process to import prices from MDM to Government Pricing app",
+        "intent": "MDMImportPrices",
+        "entities": []
+      },
+      {
+        "text": "Steps to import prices from MDM to Government Pricing application",
+        "intent": "MDMImportPrices",
+        "entities": []
+      },
+      {
+        "text": "Can u guide me how to  import prices from MDM to Government Pricing system",
+        "intent": "MDMImportPrices",
+        "entities": []
+      },
+      {
+        "text": "How can I import prices from MDM to Government Pricing system",
+        "intent": "MDMImportPrices",
+        "entities": []
+      },
+      {
+        "text": "Please help me with pricing import from MDM to Government Pricing system",
+        "intent": "MDMImportPrices",
+        "entities": []
+      },
+      {
+        "text": "Is it possible to get associated product set and the underlying product details in a contract",
+        "intent": "CheckProductDetails",
+        "entities": []
+      },
+      {
+        "text": "I want the associated product set and its details in a contract",
+        "intent": "CheckProductDetails",
+        "entities": []
+      },
+      {
+        "text": "I want the associated product set and the underlying product details in a contract",
+        "intent": "CheckProductDetails",
+        "entities": []
+      },
+      {
+        "text": "Please share the associated product set and the underlying product details in a contract",
+        "intent": "CheckProductDetails",
+        "entities": []
+      },
+      {
+        "text": "How to get a contract's associated product set and the underlying product details",
+        "intent": "CheckProductDetails",
+        "entities": []
+      },
+      {
+        "text": "Where to get a contract's associated product set and the underlying product details",
+        "intent": "CheckProductDetails",
+        "entities": []
+      },
+      {
+        "text": "Please guide me to get a contract's associated product set and the underlying product details",
+        "intent": "CheckProductDetails",
+        "entities": []
+      },
+      {
+        "text": "Process to get a contract's associated product set and the underlying product details",
+        "intent": "CheckProductDetails",
+        "entities": []
+      },
+      {
+        "text": "Steps to get a contract's associated product set and the underlying product details",
+        "intent": "CheckProductDetails",
+        "entities": []
+      },
+      {
+        "text": "Can u guide me how to get associated product set and the underlying product details in a contract",
+        "intent": "CheckProductDetails",
+        "entities": []
+      },
+      {
+        "text": "Is there a table to store pricing information in a contract",
+        "intent": "ContractPricingInfo",
+        "entities": []
+      },
+      {
+        "text": "Where can I see pricing information in a contract",
+        "intent": "ContractPricingInfo",
+        "entities": []
+      },
+      {
+        "text": "I want to see pricing information in a contract",
+        "intent": "ContractPricingInfo",
+        "entities": []
+      },
+      {
+        "text": "How can I view pricing information in a contract",
+        "intent": "ContractPricingInfo",
+        "entities": []
+      },
+      {
+        "text": "I want to know pricing information of a contract",
+        "intent": "ContractPricingInfo",
+        "entities": []
+      },
+      {
+        "text": "What is the table name which stores contract price related information ",
+        "intent": "ContractPricingInfo",
+        "entities": []
+      },
+      {
+        "text": "How to see pricing information of a contract",
+        "intent": "ContractPricingInfo",
+        "entities": []
+      },
+      {
+        "text": "Can i view pricing information of a contract",
+        "intent": "ContractPricingInfo",
+        "entities": []
+      },
+      {
+        "text": "Can you help me with pricing related information of a contract",
+        "intent": "ContractPricingInfo",
+        "entities": []
+      },
+      {
+        "text": "Where is pricing related information of a contract stored",
+        "intent": "ContractPricingInfo",
+        "entities": []
+      },
+      {
+        "text": "Please help me with  pricing related information of a contract",
+        "intent": "ContractPricingInfo",
+        "entities": []
+      },
+      {
+        "text": "What is the table that store pricing related information of a contract ",
+        "intent": "ContractPricingInfo",
+        "entities": []
+      },
+      {
+        "text": "Is there a table to store contract related information",
+        "intent": "ContractDetailAccess",
+        "entities": []
+      },
+      {
+        "text": "Where can I see contract related information",
+        "intent": "ContractDetailAccess",
+        "entities": []
+      },
+      {
+        "text": "How can I view contract related information",
+        "intent": "ContractDetailAccess",
+        "entities": []
+      },
+      {
+        "text": "I want to know contract related information table in database",
+        "intent": "ContractDetailAccess",
+        "entities": []
+      },
+      {
+        "text": "What is the table name which stores contract related information",
+        "intent": "ContractDetailAccess",
+        "entities": []
+      },
+      {
+        "text": "How to see contract related information",
+        "intent": "ContractDetailAccess",
+        "entities": []
+      },
+      {
+        "text": "Can i view contract related information",
+        "intent": "ContractDetailAccess",
+        "entities": []
+      },
+      {
+        "text": "Can you help me with contract related information",
+        "intent": "ContractDetailAccess",
+        "entities": []
+      },
+      {
+        "text": "Where is contract related information stored",
+        "intent": "ContractDetailAccess",
+        "entities": []
+      },
+      {
+        "text": "Please help me with  contract related information",
+        "intent": "ContractDetailAccess",
+        "entities": []
+      },
+      {
+        "text": "What is the table that stores contract related information",
+        "intent": "ContractDetailAccess",
+        "entities": []
+      },
+      {
+        "text": "Where I can see the contract related information. I want to see the contract related information",
+        "intent": "ContractDetailAccess",
+        "entities": []
+      },
+      {
+        "text": "How can I see contract related information",
+        "intent": "ContractDetailAccess",
+        "entities": []
+      },
+      {
+        "text": "Can I exempt a contract from low price calculation",
+        "intent": "LowPriceCalculationExemption",
+        "entities": []
+      },
+      {
+        "text": "Is it possible to exempt a contract from low price calculation",
+        "intent": "LowPriceCalculationExemption",
+        "entities": []
+      },
+      {
+        "text": "How can I exempt a contract from low price calculation",
+        "intent": "LowPriceCalculationExemption",
+        "entities": []
+      },
+      {
+        "text": "Please guide me to exclude a contract from low price calculation",
+        "intent": "LowPriceCalculationExemption",
+        "entities": []
+      },
+      {
+        "text": "Process to exclude a contract from low price calculation",
+        "intent": "LowPriceCalculationExemption",
+        "entities": []
+      },
+      {
+        "text": "Steps to exclude a contract from low price calculation",
+        "intent": "LowPriceCalculationExemption",
+        "entities": []
+      },
+      {
+        "text": "Can u guide me how to exclude a contract from low price calculation",
+        "intent": "LowPriceCalculationExemption",
+        "entities": []
+      },
+      {
+        "text": "Is there a way to exclude a contract from low price calculation",
+        "intent": "LowPriceCalculationExemption",
+        "entities": []
+      },
+      {
+        "text": "Please help me to exempt a contract from low price calculation",
+        "intent": "LowPriceCalculationExemption",
+        "entities": []
+      },
+      {
+        "text": "How can I exempt a contract from low price calculation",
+        "intent": "LowPriceCalculationExemption",
+        "entities": []
+      },
+      {
+        "text": "Please help me exempting a contract from low price calculation",
+        "intent": "LowPriceCalculationExemption",
+        "entities": []
+      },
+      {
+        "text": "Is it possible to view calculation in government pricing module",
+        "intent": "KickOffCalculationScreen",
+        "entities": []
+      },
+      {
+        "text": "Please guide me to view calculation in government pricing module",
+        "intent": "KickOffCalculationScreen",
+        "entities": []
+      },
+      {
+        "text": "Process to see calculation in government pricing module",
+        "intent": "KickOffCalculationScreen",
+        "entities": []
+      },
+      {
+        "text": "Steps to see calculation in government pricing app",
+        "intent": "KickOffCalculationScreen",
+        "entities": []
+      },
+      {
+        "text": "Can u guide me how to see calculations in government pricing app",
+        "intent": "KickOffCalculationScreen",
+        "entities": []
+      },
+      {
+        "text": "Is there a way to view calculations in government pricing app",
+        "intent": "KickOffCalculationScreen",
+        "entities": []
+      },
+      {
+        "text": "Please help me to view calculations in government pricing application",
+        "intent": "KickOffCalculationScreen",
+        "entities": []
+      },
+      {
+        "text": "How can I view calculations in government pricing app",
+        "intent": "KickOffCalculationScreen",
+        "entities": []
+      },
+      {
+        "text": "Please help me view calculations in government pricing app",
+        "intent": "KickOffCalculationScreen",
+        "entities": []
+      },
+      {
+        "text": "I want to see calculation in government pricing app",
+        "intent": "KickOffCalculationScreen",
+        "entities": []
+      },
+      {
+        "text": "How can I view calculations in government pricing module",
+        "intent": "KickOffCalculationScreen",
+        "entities": []
+      },
+      {
+        "text": " How to see calculations in government pricing application",
+        "intent": "KickOffCalculationScreen",
+        "entities": []
+      },
+      {
+        "text": "Can I view calculation in government pricing module",
+        "intent": "KickOffCalculationScreen",
+        "entities": []
+      },
+      {
+        "text": "In a contract, how can I check Customer Eligibility Set and its details",
+        "intent": "CustomerEligibilitySet",
+        "entities": []
+      },
+      {
+        "text": "Is it possible to get customer Eligibility Set and the underlying Customer details in a contract",
+        "intent": "CustomerEligibilitySet",
+        "entities": []
+      },
+      {
+        "text": "I want the customer Eligibility Set and its details in a contract",
+        "intent": "CustomerEligibilitySet",
+        "entities": []
+      },
+      {
+        "text": "I want the Customer Eligibility Set and the underlying Customer details in a contract",
+        "intent": "CustomerEligibilitySet",
+        "entities": []
+      },
+      {
+        "text": "Please share the  Customer Eligibility Set and the underlying Customer in a contract",
+        "intent": "CustomerEligibilitySet",
+        "entities": []
+      },
+      {
+        "text": "How to get a contract's  Customer Eligibility Set and the underlying Customer details",
+        "intent": "CustomerEligibilitySet",
+        "entities": []
+      },
+      {
+        "text": "Where to get a contract's Customer Eligibility Set and the underlying Customer details",
+        "intent": "CustomerEligibilitySet",
+        "entities": []
+      },
+      {
+        "text": "Please guide me to get a contract's Customer Eligibility Set and the underlying Customer details",
+        "intent": "CustomerEligibilitySet",
+        "entities": []
+      },
+      {
+        "text": "Process to get a contract's Customer Eligibility Set and the underlying Customer details",
+        "intent": "CustomerEligibilitySet",
+        "entities": []
+      },
+      {
+        "text": "Steps to get a contract's Customer Eligibility Set and the underlying Customer details",
+        "intent": "CustomerEligibilitySet",
+        "entities": []
+      },
+      {
+        "text": "Can u guide me how to get Customer Eligibility Set and the underlying Customer details in a contract",
+        "intent": "CustomerEligibilitySet",
+        "entities": []
+      },
+      {
+        "text": "Is it possible to configure scrubs in the government pricing application",
+        "intent": "ScrubsConfiguration",
+        "entities": []
+      },
+      {
+        "text": "How can i configure scrubs in the government pricing applciation",
+        "intent": "ScrubsConfiguration",
+        "entities": []
+      },
+      {
+        "text": "Please help me with configuring scrubs in the government pricing applciation",
+        "intent": "ScrubsConfiguration",
+        "entities": []
+      },
+      {
+        "text": "Please guide me to configure scrubs in the government pricing app",
+        "intent": "ScrubsConfiguration",
+        "entities": []
+      },
+      {
+        "text": "Process to configure scrubs in the government pricing system",
+        "intent": "ScrubsConfiguration",
+        "entities": []
+      },
+      {
+        "text": "Steps to configure scrubs in the government pricing application",
+        "intent": "ScrubsConfiguration",
+        "entities": []
+      },
+      {
+        "text": "Can u guide me how to configure scrubs in the government pricing application",
+        "intent": "ScrubsConfiguration",
+        "entities": []
+      },
+      {
+        "text": "Can I configure scrubs in the government pricing application",
+        "intent": "ScrubsConfiguration",
+        "entities": []
+      },
+      {
+        "text": "What is the full form of ECP",
+        "intent": "ECP",
+        "entities": []
+      },
+      {
+        "text": "ECP stands for",
+        "intent": "ECP",
+        "entities": []
+      },
+      {
+        "text": "I want to know about ECP",
+        "intent": "ECP",
+        "entities": []
+      },
+      {
+        "text": "I need to know what does ECP means",
+        "intent": "ECP",
+        "entities": []
+      },
+      {
+        "text": "Can you please tell me about ECP",
+        "intent": "ECP",
+        "entities": []
+      },
+      {
+        "text": "What does ECP stand for",
+        "intent": "ECP",
+        "entities": []
+      },
+      {
+        "text": "How can publish prices from government pricing system to Master Data",
+        "intent": "PublishPrices ",
+        "entities": []
+      },
+      {
+        "text": "Please help me with publishing prices from government pricing system to Master Data",
+        "intent": "PublishPrices ",
+        "entities": []
+      },
+      {
+        "text": "How can I publish prices from government pricing system to Master Data",
+        "intent": "PublishPrices ",
+        "entities": []
+      },
+      {
+        "text": "Please guide me to publish prices from government pricing system to Master Data",
+        "intent": "PublishPrices ",
+        "entities": []
+      },
+      {
+        "text": "Process to publish prices from government pricing system to Master Data",
+        "intent": "PublishPrices ",
+        "entities": []
+      },
+      {
+        "text": "Steps to publish prices from government pricing system to Master Data",
+        "intent": "PublishPrices ",
+        "entities": []
+      },
+      {
+        "text": "Can u guide me how to  publish prices from government pricing system to Master Data",
+        "intent": "PublishPrices ",
+        "entities": []
+      },
+      {
+        "text": "Can I publish prices from government pricing system to Master Data",
+        "intent": "PublishPrices ",
+        "entities": []
+      },
+      {
+        "text": "Where can I define market type in flex",
+        "intent": "MarketTypes",
+        "entities": []
+      },
+      {
+        "text": "What is market type in flex",
+        "intent": "MarketTypes",
+        "entities": []
+      },
+      {
+        "text": "I want market type in flex",
+        "intent": "MarketTypes",
+        "entities": []
+      },
+      {
+        "text": "Do we have market type in flex",
+        "intent": "MarketTypes",
+        "entities": []
+      },
+      {
+        "text": "Where can I locate market type in flex",
+        "intent": "MarketTypes",
+        "entities": []
+      },
+      {
+        "text": "Where to find market type in flex ",
+        "intent": "MarketTypes",
+        "entities": []
+      },
+      {
+        "text": "How to  define market type in flex",
+        "intent": "MarketTypes",
+        "entities": []
+      },
+      {
+        "text": "Can i access market type in flex",
+        "intent": "MarketTypes",
+        "entities": []
+      },
+      {
+        "text": "Can you help me with market type in flex",
+        "intent": "MarketTypes",
+        "entities": []
+      },
+      {
+        "text": "Where to access market type in flex system",
+        "intent": "MarketTypes",
+        "entities": []
+      },
+      {
+        "text": "Please help me with define market type in flex app",
+        "intent": "MarketTypes",
+        "entities": []
+      },
+      {
+        "text": "Please help me with define market type in flex application",
+        "intent": "MarketTypes",
+        "entities": []
+      },
+      {
+        "text": "How to resolve grebate issues",
+        "intent": "GreenStoneQueries",
+        "entities": []
+      },
+      {
+        "text": "Whom to contact for greenstone rebate issues",
+        "intent": "GreenStoneQueries",
+        "entities": []
+      },
+      {
+        "text": "How to get support for grebate issues",
+        "intent": "GreenStoneQueries",
+        "entities": []
+      },
+      {
+        "text": "Regarding grebate related issues",
+        "intent": "GreenStoneQueries",
+        "entities": []
+      },
+      {
+        "text": "How to get support for grebate issues",
+        "intent": "GreenStoneQueries",
+        "entities": []
+      },
+      {
+        "text": "Regarding grebate related issues",
+        "intent": "GreenStoneQueries",
+        "entities": []
+      },
+      {
+        "text": "How to get grebate issues resolved",
+        "intent": "GreenStoneQueries",
+        "entities": []
+      },
+      {
+        "text": "Please help me in getting grebate issue resolved",
+        "intent": "GreenStoneQueries",
+        "entities": []
+      },
+      {
+        "text": "Please help me with grebate issue resolution",
+        "intent": "GreenStoneQueries",
+        "entities": []
+      },
+      {
+        "text": "How to resolve managed care issues",
+        "intent": "ManagedCareQueries",
+        "entities": []
+      },
+      {
+        "text": "Whom to contact for managed care issues",
+        "intent": "ManagedCareQueries",
+        "entities": []
+      },
+      {
+        "text": "How to get support for managed care issues",
+        "intent": "ManagedCareQueries",
+        "entities": []
+      },
+      {
+        "text": "Regarding managed care related issues",
+        "intent": "ManagedCareQueries",
+        "entities": []
+      },
+      {
+        "text": "How to get managed care issues resolved",
+        "intent": "ManagedCareQueries",
+        "entities": []
+      },
+      {
+        "text": "Please help me in getting managed care issue resolved",
+        "intent": "ManagedCareQueries",
+        "entities": []
+      },
+      {
+        "text": "Please help me with managed care issue resolution",
+        "intent": "ManagedCareQueries",
+        "entities": []
+      },
+      {
+        "text": "How to resolve MDM issues",
+        "intent": "MDMQueries",
+        "entities": []
+      },
+      {
+        "text": "Whom to contact for MDM issues",
+        "intent": "MDMQueries",
+        "entities": []
+      },
+      {
+        "text": "How to get support for MDM issues",
+        "intent": "MDMQueries",
+        "entities": []
+      },
+      {
+        "text": "Regarding MDM related issues",
+        "intent": "MDMQueries",
+        "entities": []
+      },
+      {
+        "text": "How to get MDM issues resolved",
+        "intent": "MDMQueries",
+        "entities": []
+      },
+      {
+        "text": "Please help me in getting MDM issue resolved",
+        "intent": "MDMQueries",
+        "entities": []
+      },
+      {
+        "text": "Please help me with MDM issue resolution",
+        "intent": "MDMQueries",
+        "entities": []
+      },
+      {
+        "text": "How to resolve AMM issues",
+        "intent": "AMMQueries",
+        "entities": []
+      },
+      {
+        "text": "Whom to contact for AMM issues",
+        "intent": "AMMQueries",
+        "entities": []
+      },
+      {
+        "text": "How to get support for AMM issues",
+        "intent": "AMMQueries",
+        "entities": []
+      },
+      {
+        "text": "Regarding AMM related issues",
+        "intent": "AMMQueries",
+        "entities": []
+      },
+      {
+        "text": "How to get AMM issues resolved",
+        "intent": "AMMQueries",
+        "entities": []
+      },
+      {
+        "text": "Please help me in getting AMM issue resolved",
+        "intent": "AMMQueries",
+        "entities": []
+      },
+      {
+        "text": "Please help me with AMM issue resolution",
+        "intent": "AMMQueries",
+        "entities": []
+      },
+      {
+        "text": "How to resolve CDH issues",
+        "intent": "CDHQueries",
+        "entities": []
+      },
+      {
+        "text": "Whom to contact for CDH issues",
+        "intent": "CDHQueries",
+        "entities": []
+      },
+      {
+        "text": "How to get support for CDH issues",
+        "intent": "CDHQueries",
+        "entities": []
+      },
+      {
+        "text": "Regarding CDH related issues",
+        "intent": "CDHQueries",
+        "entities": []
+      },
+      {
+        "text": "How to get CDH issues resolved",
+        "intent": "CDHQueries",
+        "entities": []
+      },
+      {
+        "text": "Please help me in getting CDH issue resolved",
+        "intent": "CDHQueries",
+        "entities": []
+      },
+      {
+        "text": "Please help me with CDH issue resolution",
+        "intent": "CDHQueries",
+        "entities": []
+      },
+      {
+        "text": "How to resolve government pricing issues",
+        "intent": "PricingQueries",
+        "entities": []
+      },
+      {
+        "text": "Whom to contact for government pricing issues",
+        "intent": "PricingQueries",
+        "entities": []
+      },
+      {
+        "text": "How to get support for government pricing issues",
+        "intent": "PricingQueries",
+        "entities": []
+      },
+      {
+        "text": "Regarding government pricing related issues",
+        "intent": "PricingQueries",
+        "entities": []
+      },
+      {
+        "text": "How to get government pricing issues resolved",
+        "intent": "PricingQueries",
+        "entities": []
+      },
+      {
+        "text": "Please help me in getting government pricing issue resolved",
+        "intent": "PricingQueries",
+        "entities": []
+      },
+      {
+        "text": "Please help me with government pricing issue resolution",
+        "intent": "PricingQueries",
+        "entities": []
+      },
+      {
+        "text": "Excel Extraction",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "PDF Extraction",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "CSV Extraction",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "How to do excel or PDF report extraction",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "extraction of PDF",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "Extraction of Excel",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "Extraction of CSV",
+        "intent": "ExtractReportData",
+        "entities": []
+      },
+      {
+        "text": "Where to access TD for managed care",
+        "intent": "ManageCareReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "managed care FD",
+        "intent": "ManageCareReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "managed care TD ",
+        "intent": "ManageCareReportsDocs",
+        "entities": []
+      },
+      {
+        "text": "What are the reports related to Wholesalers information",
+        "intent": "WholesalersInfo",
+        "entities": []
+      },
+      {
+        "text": "Wholesaler information",
+        "intent": "WholesalersInfo",
+        "entities": []
+      },
+      {
+        "text": "Wholesaler Information related reports ",
+        "intent": "WholesalersInfo",
+        "entities": []
+      },
+      {
+        "text": "Is there any reports related to wholesaler information ",
+        "intent": "WholesalersInfo",
+        "entities": []
+      },
+      {
+        "text": "From which reports I can get the wholesaler information ",
+        "intent": "WholesalersInfo",
+        "entities": []
+      },
+      {
+        "text": "I want a report which has wholesaler information",
+        "intent": "WholesalersInfo",
+        "entities": []
+      },
+      {
+        "text": "Wholesaler details report",
+        "intent": "WholesalersInfo",
+        "entities": []
+      },
+      {
+        "text": "Wholesaler chargeback report please",
+        "intent": "WholesalersInfo",
+        "entities": []
+      },
+      {
+        "text": "Wholesaler weekly rejected report",
+        "intent": "WholesalersInfo",
+        "entities": []
+      },
+      {
+        "text": "How to get the report for Wholesaler Information",
+        "intent": "WholesalersInfo",
+        "entities": []
+      },
+      {
+        "text": "Please get me Wholesaler Information report",
+        "intent": "WholesalersInfo",
+        "entities": []
+      },
+      {
+        "text": "Please provide Wholesaler Information list",
+        "intent": "WholesalersInfo",
+        "entities": []
+      },
+      {
+        "text": "How to access the managed care reports location",
+        "intent": "ManageCareReportsLocation",
+        "entities": []
+      },
+      {
+        "text": "Tell me the Wholesaler Scorecard ",
+        "intent": "Report",
+        "entities": [
+          {
+            "start": 12,
+            "end": 32,
+            "value": "Wholesaler Scorecard",
+            "entity": "ReportName"
+          }
+        ]
+      },
+      {
+        "text": " Where can I locate the Wholesaler Scorecard ?",
+        "intent": "Report",
+        "entities": [
+          {
+            "start": 24,
+            "end": 44,
+            "value": "Wholesaler Scorecard",
+            "entity": "ReportName"
+          }
+        ]
+      },
+      {
+        "text": "I need to know Wholesaler Scorecard ",
+        "intent": "Report",
+        "entities": [
+          {
+            "start": 15,
+            "end": 35,
+            "value": "Wholesaler Scorecard",
+            "entity": "ReportName"
+          }
+        ]
+      },
+      {
+        "text": "Need to know wholesaler scorecard ",
+        "intent": "Report",
+        "entities": [
+          {
+            "start": 13,
+            "end": 33,
+            "value": "wholesaler scorecard",
+            "entity": "ReportName"
+          }
+        ]
+      },
+      {
+        "text": "Scorecard for wholesalers",
+        "intent": "Report",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "wholesalers",
+            "entity": "ReportName"
+          }
+        ]
+      },
+      {
+        "text": "How to get Wholesaler Scorecard",
+        "intent": "Report",
+        "entities": [
+          {
+            "start": 11,
+            "end": 31,
+            "value": "Wholesaler Scorecard",
+            "entity": "ReportName"
+          }
+        ]
+      },
+      {
+        "text": "Wholesaler Scorecard",
+        "intent": "Report",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Wholesaler Scorecard",
+            "entity": "ReportName"
+          }
+        ]
+      },
+      {
+        "text": "Current wholesaler scorecard",
+        "intent": "Report",
+        "entities": [
+          {
+            "start": 8,
+            "end": 28,
+            "value": "wholesaler scorecard",
+            "entity": "ReportName"
+          }
+        ]
+      },
+      {
+        "text": "How to get Wholesaler Scorecard ",
+        "intent": "Report",
+        "entities": [
+          {
+            "start": 11,
+            "end": 31,
+            "value": "Wholesaler Scorecard",
+            "entity": "ReportName"
+          }
+        ]
+      },
+      {
+        "text": "My Wholesaler Scorecard",
+        "intent": "Report",
+        "entities": [
+          {
+            "start": 3,
+            "end": 23,
+            "value": "Wholesaler Scorecard",
+            "entity": "ReportName"
+          }
+        ]
+      },
+      {
+        "text": "Get Wholesaler Scorecard",
+        "intent": "Report",
+        "entities": [
+          {
+            "start": 4,
+            "end": 24,
+            "value": "Wholesaler Scorecard",
+            "entity": "ReportName"
+          }
+        ]
+      },
+      {
+        "text": "Scorecard",
+        "intent": "Report",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Scorecard",
+            "entity": "ReportName"
+          }
+        ]
+      },
+      {
+        "text": "Hello Rema",
+        "intent": "Greetings",
+        "entities": []
+      },
+      {
+        "text": "Hi",
+        "intent": "Greetings",
+        "entities": []
+      },
+      {
+        "text": "What are the price changes on my contracts made in the last week?",
+        "intent": "PriceChange",
+        "entities": [
+          {
+            "start": 55,
+            "end": 64,
+            "value": "last week",
+            "entity": "Date"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the price changes for my contracts after 12th October",
+        "intent": "PriceChange",
+        "entities": [
+          {
+            "start": 49,
+            "end": 61,
+            "value": "12th October",
+            "entity": "Date"
+          }
+        ]
+      },
+      {
+        "text": "I need to know price changes on my contract in the last month",
+        "intent": "PriceChange",
+        "entities": [
+          {
+            "start": 51,
+            "end": 61,
+            "value": "last month",
+            "entity": "Date"
+          }
+        ]
+      },
+      {
+        "text": "Need to know price changes on my contract in the current month",
+        "intent": "PriceChange",
+        "entities": [
+          {
+            "start": 49,
+            "end": 62,
+            "value": "current month",
+            "entity": "Date"
+          }
+        ]
+      },
+      {
+        "text": "Please tell price change for my contracts",
+        "intent": "PriceChange",
+        "entities": []
+      },
+      {
+        "text": "Yes",
+        "intent": "Affirmative",
+        "entities": []
+      },
+      {
+        "text": "Yes please",
+        "intent": "Affirmative",
+        "entities": []
+      },
+      {
+        "text": "No",
+        "intent": "NonAffirmative",
+        "entities": []
+      },
+      {
+        "text": "No thanks",
+        "intent": "NonAffirmative",
+        "entities": []
+      },
+      {
+        "text": "A COLON AND ASSOCIADOS",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "A COLON AND ASSOCIADOS",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "McKesson XYZ",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "McKesson XYZ",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "Erisson ABC",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Erisson ABC",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "Pickson PQR",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Pickson PQR",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "Wholesaler name is A COLON AND ASSOCIADOS",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 19,
+            "end": 41,
+            "value": "A COLON AND ASSOCIADOS",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "McKesson XYZ is the wholesaler ",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "McKesson XYZ",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "Hey",
+        "intent": "Greetings",
+        "entities": []
+      },
+      {
+        "text": "How are you",
+        "intent": "Greetings",
+        "entities": []
+      },
+      {
+        "text": "Good morning",
+        "intent": "Greetings",
+        "entities": []
+      },
+      {
+        "text": "Good evening",
+        "intent": "Greetings",
+        "entities": []
+      },
+      {
+        "text": "Good afternoon",
+        "intent": "Greetings",
+        "entities": []
+      },
+      {
+        "text": "Greetings",
+        "intent": "Greetings",
+        "entities": []
+      },
+      {
+        "text": "Greetings for the day",
+        "intent": "Greetings",
+        "entities": []
+      },
+      {
+        "text": "How r u",
+        "intent": "Greetings",
+        "entities": []
+      },
+      {
+        "text": "S",
+        "intent": "Affirmative",
+        "entities": []
+      },
+      {
+        "text": "Yup",
+        "intent": "Affirmative",
+        "entities": []
+      },
+      {
+        "text": "Yep",
+        "intent": "Affirmative",
+        "entities": []
+      },
+      {
+        "text": "Ok",
+        "intent": "Affirmative",
+        "entities": []
+      },
+      {
+        "text": "Fine",
+        "intent": "Affirmative",
+        "entities": []
+      },
+      {
+        "text": "Sure",
+        "intent": "Affirmative",
+        "entities": []
+      },
+      {
+        "text": "Ok please",
+        "intent": "Affirmative",
+        "entities": []
+      },
+      {
+        "text": "Ok sure",
+        "intent": "Affirmative",
+        "entities": []
+      },
+      {
+        "text": "Done",
+        "intent": "Affirmative",
+        "entities": []
+      },
+      {
+        "text": "No thank you",
+        "intent": "NonAffirmative",
+        "entities": []
+      },
+      {
+        "text": "No, thank you",
+        "intent": "NonAffirmative",
+        "entities": []
+      },
+      {
+        "text": "No. I’m fine",
+        "intent": "NonAffirmative",
+        "entities": []
+      },
+      {
+        "text": "Nope",
+        "intent": "NonAffirmative",
+        "entities": []
+      },
+      {
+        "text": "I'm good",
+        "intent": "NonAffirmative",
+        "entities": []
+      },
+      {
+        "text": "That's alright",
+        "intent": "NonAffirmative",
+        "entities": []
+      },
+      {
+        "text": "Naah",
+        "intent": "NonAffirmative",
+        "entities": []
+      },
+      {
+        "text": "Nah",
+        "intent": "NonAffirmative",
+        "entities": []
+      },
+      {
+        "text": "I am done",
+        "intent": "NonAffirmative",
+        "entities": []
+      },
+      {
+        "text": "last week",
+        "intent": "PriceChangeDate",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "last week",
+            "entity": "Date"
+          }
+        ]
+      },
+      {
+        "text": "last month",
+        "intent": "PriceChangeDate",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "last month",
+            "entity": "Date"
+          }
+        ]
+      },
+      {
+        "text": "current month",
+        "intent": "PriceChangeDate",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "current month",
+            "entity": "Date"
+          }
+        ]
+      },
+      {
+        "text": "last 7 days",
+        "intent": "PriceChangeDate",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "last 7 days",
+            "entity": "Date"
+          }
+        ]
+      },
+      {
+        "text": "13th March",
+        "intent": "PriceChangeDate",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "13th March",
+            "entity": "Date"
+          }
+        ]
+      },
+      {
+        "text": "Change in discounted price",
+        "intent": "PriceChange",
+        "entities": []
+      },
+      {
+        "text": "Price change in my contracts",
+        "intent": "PriceChange",
+        "entities": []
+      },
+      {
+        "text": "How to know contracts price change",
+        "intent": "PriceChange",
+        "entities": []
+      },
+      {
+        "text": "Price for my contract",
+        "intent": "PriceChange",
+        "entities": []
+      },
+      {
+        "text": "Current price for my contract",
+        "intent": "PriceChange",
+        "entities": []
+      },
+      {
+        "text": "How to get a contract price",
+        "intent": "PriceChange",
+        "entities": []
+      },
+      {
+        "text": "Discounted price for my contracts",
+        "intent": "PriceChange",
+        "entities": []
+      },
+      {
+        "text": "My contract price ",
+        "intent": "PriceChange",
+        "entities": []
+      },
+      {
+        "text": "Get contracts price",
+        "intent": "PriceChange",
+        "entities": []
+      },
+      {
+        "text": "Contract price",
+        "intent": "PriceChange",
+        "entities": []
+      },
+      {
+        "text": "AMERISOURCE",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "AMERISOURCE",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "my price change",
+        "intent": "PriceChange",
+        "entities": []
+      },
+      {
+        "text": "RDC",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "RDC",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "MCKESSON MED SURGICL INC",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "MCKESSON MED SURGICL INC",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "GULF SOUTH MEDCL SPLY",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "GULF SOUTH MEDCL SPLY",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "What is the status of OWENS MINOR JIT",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 22,
+            "end": 37,
+            "value": "OWENS MINOR JIT",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "AMERICAN MEDICAL DIST",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "AMERICAN MEDICAL DIST",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "NC MUTUAL WHLSE DRUG CO",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "NC MUTUAL WHLSE DRUG CO",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "SMITH DRUG COMPANY",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "SMITH DRUG COMPANY",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "AMERISOURCE BERGEN DRUG CORP",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "AMERISOURCE BERGEN DRUG CORP",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "CARDINAL HEALTH 108",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "CARDINAL HEALTH 108",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "MCKESSON DRUG CO 138",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "MCKESSON DRUG CO 138",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "AMERISOURCEBERGEN DRUG CORP",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "AMERISOURCEBERGEN DRUG CORP",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "MCKESSON PLASMA AND BIOLOGICS",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "value": "MCKESSON PLASMA AND BIOLOGICS",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "MCQUEARY BROS DRUGS",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "MCQUEARY BROS DRUGS",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "MARKED FOR DELETION",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "MARKED FOR DELETION",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "D&K WHLSE RESOURCES INC",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "D&K WHLSE RESOURCES INC",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "CARDINAL HEALTH 200 LLC",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "CARDINAL HEALTH 200 LLC",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "MCKESSON HBOC",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "MCKESSON HBOC",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "OWENS MINOR JIT",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "OWENS MINOR JIT",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "GULF SOUTH MED SPPLY INC",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "GULF SOUTH MED SPPLY INC",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "CLAFLIN COMPANY",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "CLAFLIN COMPANY",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "what is the status of wholesaler RDC",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 33,
+            "end": 36,
+            "value": "RDC",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "May i know the status of wholesaler CARDINAL HEALTH 108",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 36,
+            "end": 55,
+            "value": "CARDINAL HEALTH 108",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "status of wholesaler GULF SOUTH MEDCL SPLY",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 21,
+            "end": 42,
+            "value": "GULF SOUTH MEDCL SPLY",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "What is the status of D&K WHLSE RESOURCES INC",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 22,
+            "end": 45,
+            "value": "D&K WHLSE RESOURCES INC",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "may i  know the status of OWENS MINOR JIT",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 26,
+            "end": 41,
+            "value": "OWENS MINOR JIT",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "status of AMERISOURCE BERGEN DRUG CORP",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 10,
+            "end": 38,
+            "value": "AMERISOURCE BERGEN DRUG CORP",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "Not able to see MCKESSON PLASMA AND BIOLOGICS in report",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 16,
+            "end": 45,
+            "value": "MCKESSON PLASMA AND BIOLOGICS",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "Check wholesaler MCKESSON PLASMA AND BIOLOGICS",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 17,
+            "end": 46,
+            "value": "MCKESSON PLASMA AND BIOLOGICS",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "check status MCKESSON PLASMA AND BIOLOGICS",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 13,
+            "end": 42,
+            "value": "MCKESSON PLASMA AND BIOLOGICS",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "wholesaler status for RDC",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "RDC",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "Wholesaler MCQUEARY BROS DRUGS",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 11,
+            "end": 30,
+            "value": "MCQUEARY BROS DRUGS",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "CARDINAL HEALTH 200 LLC status",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "CARDINAL HEALTH 200 LLC",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "MCKESSON DRUG CO 138 wholesaler",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "MCKESSON DRUG CO 138",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "a colon and associados",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "a colon and associados",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "amerisource",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "amerisource",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "rdc",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "rdc",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "american medical dist",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "american medical dist",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "nc mutual whlse drug co",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "nc mutual whlse drug co",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "smith drug company",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "smith drug company",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "amerisource bergen drug corp",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "amerisource bergen drug corp",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "cardinal health 108",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "cardinal health 108",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "mckesson drug co 138",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "mckesson drug co 138",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "amerisourcebergen drug corp",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "amerisourcebergen drug corp",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "mckesson plasma and biologics",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "value": "mckesson plasma and biologics",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "mcqueary bros drugs",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "mcqueary bros drugs",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "marked for deletion",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "marked for deletion",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "Rdc",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Rdc",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "d&k whlse resources inc",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "d&k whlse resources inc",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "D&k whlse resources inc",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "D&k whlse resources inc",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "D&K whlse resources inc",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "D&K whlse resources inc",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "cardinal health 200 llc",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "cardinal health 200 llc",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "Cardinal Health 200 LLC",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "Cardinal Health 200 LLC",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "mckesson HBOC",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "mckesson HBOC",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "mckesson hboc",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "mckesson hboc",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "owens minor jit",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "owens minor jit",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "gulf south medcl sply",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "gulf south medcl sply",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "mckesson med surgicl inc",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "mckesson med surgicl inc",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "gulf south med spply inc",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "gulf south med spply inc",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "claflin company",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "claflin company",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "wholesaler status rdc",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 18,
+            "end": 21,
+            "value": "rdc",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "status rdc",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "rdc",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "rdc wholesaler ",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "rdc",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "rdc status",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "rdc",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "Custom Date",
+        "intent": "PriceChangeDate",
+        "entities": []
+      },
+      {
+        "text": "custom date",
+        "intent": "PriceChangeDate",
+        "entities": []
+      },
+      {
+        "text": "status of amerisource",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 10,
+            "end": 21,
+            "value": "amerisource",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "status of cardinal health",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 10,
+            "end": 25,
+            "value": "cardinal health",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "status of mckesson hboc",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 10,
+            "end": 23,
+            "value": "mckesson hboc",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "status of mcqueary bros drugs",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 10,
+            "end": 29,
+            "value": "mcqueary bros drugs",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "status of smith drug company",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 10,
+            "end": 28,
+            "value": "smith drug company",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "status of american medical dist",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 10,
+            "end": 31,
+            "value": "american medical dist",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "status of mckesson plasma and biologics",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 10,
+            "end": 39,
+            "value": "mckesson plasma and biologics",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "status of owens minor jit",
+        "intent": "Wholesaler",
+        "entities": [
+          {
+            "start": 10,
+            "end": 25,
+            "value": "owens minor jit",
+            "entity": "WholesalerName"
+          }
+        ]
+      },
+      {
+        "text": "Have a good day",
+        "intent": "Thanks",
+        "entities": []
+      },
+      {
+        "text": "Thanks",
+        "intent": "Thanks",
+        "entities": []
+      },
+      {
+        "text": "Thank you so much",
+        "intent": "Thanks",
+        "entities": []
+      },
+      {
+        "text": "Thanks for the quick reply",
+        "intent": "Thanks",
+        "entities": []
+      },
+      {
+        "text": "Thank you",
+        "intent": "Thanks",
+        "entities": []
+      },
+      {
+        "text": "thank u ",
+        "intent": "Thanks",
+        "entities": []
+      },
+      {
+        "text": "thanks a ton",
+        "intent": "Thanks",
+        "entities": []
+      },
+      {
+        "text": "thanks a lot",
+        "intent": "Thanks",
+        "entities": []
+      },
+      {
+        "text": "thanks to you",
+        "intent": "Thanks",
+        "entities": []
+      },
+      {
+        "text": "thanks to u",
+        "intent": "Thanks",
+        "entities": []
+      },
+      {
+        "text": "thanking you",
+        "intent": "Thanks",
+        "entities": []
+      },
+      {
+        "text": "enjoy",
+        "intent": "Thanks",
+        "entities": []
+      },
+      {
+        "text": "Kindly help me in creating a bo report",
+        "intent": "ReportBO",
+        "entities": [
+          {
+            "start": 29,
+            "end": 38,
+            "value": "bo report",
+            "entity": "reportBO"
+          }
+        ]
+      }
+    ]
+  }
+}
